@@ -1,0 +1,11 @@
+#ex1Slider .slider-selection {
+  background: #bababa;
+}
+.slider.slider-horizontal {
+  width: 100%;
+}
+#alert {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

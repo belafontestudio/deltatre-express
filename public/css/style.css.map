@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA;EACE,oBAAoB;CACrB;AACD;EACE,YAAY;CACb;AACD;EACE,cAAc;CACf","file":"style.css","sourcesContent":["#ex1Slider .slider-selection {\n  background: #bababa;\n}\n.slider.slider-horizontal {\n  width: 100%;\n}\n#alert {\n  display: none;\n}\n"],"sourceRoot":"/source/"}

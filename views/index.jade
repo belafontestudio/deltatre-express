@@ -1,0 +1,76 @@
+extends layout
+
+block content
+  .container
+    ul.nav.nav-pills
+      li.active(role='presentation')
+        a(href='#') Commentary
+      li(role='presentation')
+        a(href='#') Multistream
+      li(role='presentation')
+        a(href='#') Overlay
+      li(role='presentation')
+        a(href='#') Share
+    #alert.alert.alert-info.alert-dismissible.fade.in(role='alert')
+      button.close(type='button', data-dismiss='alert', aria-label='Close')
+        span(aria-hidden='true') &times;
+      strong Alert
+      |  This dissapear in some sec
+
+    .panel#commentary.panel-default
+      .panel-heading
+        h3.panel-title Commentary    
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button.btn.btn-default(type='button') PlayByPLay
+          button.btn.btn-default(type='button') Multicam
+          button.btn.btn-default(type='button') Share   
+          input#ex4(type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
+
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          button.btn.btn-default(type='button') Expand
+          button.btn.btn-default(type='button') Collapse   
+    .panel.panel-default
+      .panel-heading
+        h3.panel-title Popup with Multicam    
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button.btn.btn-default(type='button') Click
+          button.btn.btn-default(type='button') Multicam
+          button.btn.btn-default(type='button') Share   
+          
+    .panel.panel-default
+      .panel-heading
+        h3.panel-title Alert switch   
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button.btn.btn-default(type='button') On
+          button.btn.btn-default(type='button') Off 
+    
+    .panel.panel-default
+      .panel-heading
+        h3.panel-title Popup   
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button.btn.btn-default(type='button') Click
+          button.btn.btn-default(type='button') Share       
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          button.btn.btn-default(type='button') Expand
+          button.btn.btn-default(type='button') Collapse
+    input#ex1(data-slider-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='20', data-slider-step='1', data-slider-value='14')
+    .btn-toolbar(role='toolbar', aria-label='...')
+      .btn-group(role='group', aria-label='...')
+        button.btn.btn-default(type='button') Replay
+        button#play.btn.btn-default(type='button') Play    
+        button#pause.btn.btn-default(type='button') Pause
+      .btn-group(role='group', aria-label='...')
+        button.btn.btn-default(type='button') Marker
+        button.btn.btn-default(type='button') Marker with Multicam    
+        button.btn.btn-default(type='button') Midroll
+      .btn-group(role='group', aria-label='...')
+        button.btn.btn-default(type='button') Bitrate
+        button.btn.btn-default(type='button') Mute
+        button.btn.btn-default(type='button') Wizard    
+        button.btn.btn-default(type='button') Fullscreen
