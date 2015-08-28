@@ -15,260 +15,7 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
-    });
-  });
-
-
-  /* ALERT */
-
-  $( "#alert-click" ).click(function() {
-    console.log("alert-click");
-
-  });
-  $( "#alert-close" ).click(function() {
-    console.log("alert-close");
-
-  });
-  $( "#alert-on" ).click(function() {
-    console.log("alert-on");
-
-  });
-  $( "#alert-off" ).click(function() {
-    console.log("alert-off");
-
-  });
-
-  /********* BAR *********/
-
-  $( "#replay" ).click(function() {
-    console.log("replay");
-
-  });
-
-  $( "#play" ).click(function() {
-    console.log("play");
-
-  });
-
-  $( "#pause" ).click(function() {
-    console.log("pause");
-
-  });
-
-  $( "#wizard" ).click(function() {
-    console.log("wizard");
-
-  });
-
-  $( "#fullscreen" ).click(function() {
-    console.log("fullscreen");
-
-  });
-
-  // Bitrate
-
-  $( "#bitrate-auto" ).click(function() {
-    console.log("bitrate-auto");
-
-  });
-
-  $( "#bitrate-manual" ).click(function() {
-    console.log("bitrate-manual");
-
-  });
-
-  $( "#bitrate-change" ).click(function() {
-    console.log("bitrate-change");
-
-  });
-
-  // Marker
-
-  $( "#marker-popup" ).click(function() {
-    console.log("marker-popup");
-
-  });
-
-  $( "#marker-popupclick" ).click(function() {
-    console.log("marker-popupclick");
-
-  });
-
-  $( "#marker-multicam" ).click(function() {
-    console.log("marker-multicam");
-
-  });
-
-  $( "#marker-share" ).click(function() {
-    console.log("marker-share");
-
-  });
-
-  // Milestones
-
-  $( "#milestone" ).click(function() {
-    console.log("milestone");
-
-  });
-
-  $( "#milestone-view" ).click(function() {
-    console.log("milestone-view");
-
-  });
-
-  $( "#milestone-hover" ).click(function() {
-    console.log("milestone-hover");
-
-  });
-
-  $( "#milestone-pbp" ).click(function() {
-    console.log("milestone-pbp");
-
-  });
-
-  $( "#chapter" ).click(function() {
-    console.log("chapter");
-
-  });
-
-  // Volume
-
-  $( "#volume" ).slider(function() {
-    console.log("volume");
-
-  });
-
-  $( "#mute" ).click(function() {
-    console.log("mute");
-
-  });
-
-
-  // Share
-
-  $( "#share-main" ).click(function() {
-    console.log("share-main");
-
-  });
-
-  $( "#share-click" ).click(function() {
-    console.log("share-click");
-
-  });
-
-
-
-  /******** OVERLAY ******/
-
-  $( "#tab-click" ).click(function() {
-    console.log("tab-click");
-
-  });
-
-  $( "#overlay-tabclick" ).click(function() {
-    console.log("overlay-tabclick");
-
-  });
-
-  $( "#overlay-back" ).click(function() {
-    console.log("overlay-back");
-
-  });
-
-  $( "#overlay-html" ).click(function() {
-    console.log("overlay-html");
-
-  });
-
-  $( "#overlay-autoplay" ).click(function() {
-    console.log("overlay-autoplay");
-
-  });
-
-  $( "#overlay-expand" ).click(function() {
-    console.log("overlay-expand");
-
-  });
-
-  $( "#overlay-collpse" ).click(function() {
-    console.log("overlay-collpse");
-
-  });
-
-  $( "#overlay-scroll" ).slider(function() {
-    console.log("overlay-scroll");
-
-  });
-
-  $( "#overlay-replay" ).click(function() {
-    console.log("overlay-replay");
-
-  });
-
-  $( "#overlay-play" ).click(function() {
-    console.log("overlay-play");
-
-  });
-
-  $( "#overlay-pause" ).click(function() {
-    console.log("overlay-pause");
-
-  });
-
-  $( "#overlay-seek" ).click(function() {
-    console.log("overlay-seek");
-
-  });
-
-  $( "#overlay-volume-click" ).click(function() {
-    console.log("overlay-volume-click");
-
-  });
-
-  $( "#overlay-volume-slider" ).slider(function() {
-    console.log("overlay-volume-slider");
-
-  });
-
-  // PlayByPLay
-
-  $( "#playby-click" ).click(function() {
-    console.log("playby-click");
-
-  });
-
-  $( "#playby-multicam" ).click(function() {
-    console.log("playby-multicam");
-
-  });
-
-  $( "#playby-share" ).click(function() {
-    console.log("playby-share");
-
-  });
-
-  // Commentary
-
-  $( "#commentary-scroll" ).slider(function() {
-    console.log("commentary-scroll");
-
-  });
-
-
-  /******** MULTICAM ******/
-
-  $( "#multicam-open" ).click(function() {
-    console.log("multicam-open");
-
-  });
-
-  $( "#multicam-close" ).click(function() {
-    console.log("multicam-close");
-
-  });
-
-  $( "#multicam-overlay-click" ).click(function() {
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -278,17 +25,17 @@ dataLayer.push({
   'nonInteraction' : true,
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
-
+});
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Stop',
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -298,17 +45,17 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
-
+});
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Play',
   'category' : 'Adv',
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -318,17 +65,17 @@ dataLayer.push({
   'nonInteraction' : true,
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
-
+});
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Single Fail',
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -338,19 +85,18 @@ dataLayer.push({
   'nonInteraction' : true,
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
-
+});
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Single Stop',
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
+});
 
-
-  });
 
 //ALERT
 dataLayer.push({
@@ -364,7 +110,7 @@ dataLayer.push({
 });
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Activate',
   'category' : 'Alert',
   'action' : 'Click',
@@ -374,27 +120,26 @@ dataLayer.push({
 });
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Deactivate',
   'category' : 'Alert',
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/alert/1',
   'virtualPageTitle' : 'alert1'
+});
 
-
-  });
 
 //BAR
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Replay',
   'category' : 'Bar',
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -404,17 +149,17 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Volume',
   'category' : 'Bar',
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -424,7 +169,7 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -437,7 +182,7 @@ dataLayer.push({
 });
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Seek',
   'category' : 'Bar',
   'action' : 'Click',
@@ -447,7 +192,7 @@ dataLayer.push({
 });
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Bitrate',
   'category' : 'Bar',
   'action' : 'Auto',
@@ -473,7 +218,7 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -483,17 +228,17 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Milestone',
   'category' : 'Bar',
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -503,17 +248,17 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Live',
   'category' : 'Bar',
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -523,7 +268,7 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 //Wizard
 dataLayer.push({
@@ -537,7 +282,7 @@ dataLayer.push({
 });
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Close',
   'category' : 'Wizard',
   'action' : 'Click',
@@ -547,14 +292,14 @@ dataLayer.push({
 });
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Next',
   'category' : 'Wizard',
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/wizard/1',
   'virtualPageTitle' : 'wizard id'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -564,23 +309,22 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/wizard/1',
   'virtualPageTitle' : 'wizard id'
-
+});
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Out',
   'category' : 'Wizard',
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/wizard/1',
   'virtualPageTitle' : 'wizard id'
+});
 
-
-  });
 
 //VIDEO
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Pause',
   'category' : 'Video',
   'action' : 'Auto',
@@ -686,7 +430,7 @@ dataLayer.push({
   'nonInteraction' : true,
   'virtualPageURL':'/video/1',
   'virtualPageTitle' : 'video id'
-
+});
 
 //Fullscreen
 dataLayer.push({
@@ -706,11 +450,11 @@ dataLayer.push({
   'nonInteraction' : true,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 //Maincam
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Open',
   'category' : 'Maincam',
   'action' : 'Auto',
@@ -726,7 +470,7 @@ dataLayer.push({
   'nonInteraction' : true,
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
-
+});
 
 //Share
 dataLayer.push({
@@ -737,11 +481,11 @@ dataLayer.push({
   'nonInteraction' : true,
   'virtualPageURL':'/player/1/video/1/',
   'virtualPageTitle' : 'player id'
-
+});
 
 //Player
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Open',
   'category' : 'Player',
   'action' : 'Auto',
@@ -758,7 +502,7 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/marker/1',
   'virtualPageTitle' : 'marker id'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -768,17 +512,17 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/marker/1',
   'virtualPageTitle' : 'marker id'
-
+});
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Multicam',
   'category' : 'Marker',
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/marker/1',
   'virtualPageTitle' : 'marker id'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -788,11 +532,11 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/marker/1',
   'virtualPageTitle' : 'marker id'
-
+});
 
 //MILESTONE
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Open',
   'category' : 'Milestone',
   'action' : 'Hover',
@@ -802,14 +546,14 @@ dataLayer.push({
 });
 
 dataLayer.push({
-
+  'event':'interaction',
   'label':'PlayByPlay',
   'category' : 'Milestone',
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/milestone/1',
   'virtualPageTitle' : 'milestone id'
-
+});
 
 //COMMENTARY OVERLAY
 dataLayer.push({
@@ -838,11 +582,11 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/overlay/1',
   'virtualPageTitle' : 'overlay id'
-
+});
 
 //OVERLAY
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Open',
   'category' : 'Overlay',
   'action' : 'Auto',
@@ -858,7 +602,7 @@ dataLayer.push({
   'nonInteraction' : true,
   'virtualPageURL':'/overlay/1',
   'virtualPageTitle' : 'overlay id'
-
+});
 
 dataLayer.push({
   'event':'interaction',
@@ -985,7 +729,7 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/overlay/1',
   'virtualPageTitle' : 'overlay id'
-
+});
 
 //TAB MENU
 dataLayer.push({
@@ -997,7 +741,7 @@ dataLayer.push({
   'virtualPageURL':'/overlay/1',
   'virtualPageTitle' : 'overlay id'
 });
-
+dataLayer.push({
   'event':'interaction',
   'label':'Share',
   'category' : 'Tab',
@@ -1005,7 +749,7 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/overlay/1',
   'virtualPageTitle' : 'overlay id'
-
+});
 
 //MULTICAM
 dataLayer.push({
@@ -1107,11 +851,11 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/multicam/1',
   'virtualPageTitle' : 'multicam id'
-
+});
 
 //PIP
 dataLayer.push({
-
+  'event':'interaction',
   'label':'Open',
   'category' : 'Pip',
   'action' : 'Auto',
@@ -1172,7 +916,7 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/pip/1',
   'virtualPageTitle' : 'pip id'
-
+});
 
 //QUADCAM
 dataLayer.push({
@@ -1237,7 +981,7 @@ dataLayer.push({
   'nonInteraction' : false,
   'virtualPageURL':'/quadcam/1',
   'virtualPageTitle' : 'quadcam id'
-
+});
 
 //MULTISTREAM
 dataLayer.push({
@@ -1246,7 +990,7 @@ dataLayer.push({
   'category' : 'Multistream',
   'action' : 'Click',
   'nonInteraction' : false,
-
+  'virtualPageURL':'/multistream/1',
   'virtualPageTitle' : 'multistream id'
 });
 dataLayer.push({
@@ -1318,7 +1062,7 @@ dataLayer.push({
 });
 dataLayer.push({
   'event':'VirtualPageview',
-
+  'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv ID'
 });
 dataLayer.push({
@@ -1375,7 +1119,7 @@ dataLayer.push({
   'event':'VirtualPageview',
   'virtualPageURL':'/suggested/1',
   'virtualPageTitle' : 'suggested ID'
-
+});
 
 $( document ).ready(function() {
   // analytics.page({
@@ -1385,7 +1129,12 @@ $( document ).ready(function() {
   // });
   dataLayer.push({
     'event':'VirtualPageview',
-    'virtualPageURL':'/video',
+    'virtualPageURL':'/player/1',
+    'virtualPageTitle' : 'Player ID'
+  });
+  dataLayer.push({
+    'event':'VirtualPageview',
+    'virtualPageURL':'/video/1',
     'virtualPageTitle' : 'Milan vs Argentina'
   });
   $("#alert").fadeIn(10000, function() {
@@ -1396,7 +1145,16 @@ $( document ).ready(function() {
       // });
       dataLayer.push({
         'event':'VirtualPageview',
-        'virtualPageURL':'/alert',
+        'virtualPageURL':'/alert/1',
+        'virtualPageTitle' : 'alert1'
+      });
+      dataLayer.push({
+        'event':'interaction',
+        'label':'Open',
+        'category' : 'Alert',
+        'action' : 'Click',
+        'nonInteraction' : true,
+        'virtualPageURL':'/alert/1',
         'virtualPageTitle' : 'alert1'
       });
     });
@@ -1415,408 +1173,37 @@ $( document ).ready(function() {
       'label':'Close',
       'category' : 'Alert',
       'action' : 'Click',
-      'virtualPageURL':'/alert',
+      'nonInteraction' : false,
+      'virtualPageURL':'/alert/1',
       'virtualPageTitle' : 'alert1'
     });
   });
-
-
-  /* ALERT */
-
-  $( "#alert-click" ).click(function() {
-    console.log("alert-click");
-
-  });
-  $( "#alert-close" ).click(function() {
-    console.log("alert-close");
-
-  });
-  $( "#alert-on" ).click(function() {
-    console.log("alert-on");
-
-  });
-  $( "#alert-off" ).click(function() {
-    console.log("alert-off");
-
-  });
-
-  /********* BAR *********/
-
-  $( "#replay" ).click(function() {
-    console.log("replay");
-
-  });
-
-  $( "#play" ).click(function() {
-    console.log("play");
-
-  });
-
   $( "#pause" ).click(function() {
-    console.log("pause");
-
-  });
-
-  $( "#wizard" ).click(function() {
-    console.log("wizard");
-
-  });
-
-  $( "#fullscreen" ).click(function() {
-    console.log("fullscreen");
-
-  });
-
-  // Bitrate
-
-  $( "#bitrate-auto" ).click(function() {
-    console.log("bitrate-auto");
-
-  });
-
-  $( "#bitrate-manual" ).click(function() {
-    console.log("bitrate-manual");
-
-  });
-
-  $( "#bitrate-change" ).click(function() {
-    console.log("bitrate-change");
-
-  });
-
-  // Marker
-
-  $( "#marker-popup" ).click(function() {
-    console.log("marker-popup");
-
-  });
-
-  $( "#marker-popupclick" ).click(function() {
-    console.log("marker-popupclick");
-
-  });
-
-  $( "#marker-multicam" ).click(function() {
-    console.log("marker-multicam");
-
-  });
-
-  $( "#marker-share" ).click(function() {
-    console.log("marker-share");
-
-  });
-
-  // Milestones
-
-  $( "#milestone" ).click(function() {
-    console.log("milestone");
-
-  });
-
-  $( "#milestone-view" ).click(function() {
-    console.log("milestone-view");
-
-  });
-
-  $( "#milestone-hover" ).click(function() {
-    console.log("milestone-hover");
-
-  });
-
-  $( "#milestone-pbp" ).click(function() {
-    console.log("milestone-pbp");
-
-  });
-
-  $( "#chapter" ).click(function() {
-    console.log("chapter");
-
-  });
-
-  // Volume
-
-  $( "#volume" ).slider(function() {
-    console.log("volume");
-
-  });
-
-  $( "#mute" ).click(function() {
-    console.log("mute");
-
-  });
-
-
-  // Share
-
-  $( "#share-main" ).click(function() {
-    console.log("share-main");
-
-  });
-
-  $( "#share-click" ).click(function() {
-    console.log("share-click");
-
-  });
-
-
-
-  /******** OVERLAY ******/
-
-  $( "#tab-click" ).click(function() {
-    console.log("tab-click");
-
-  });
-
-  $( "#overlay-tabclick" ).click(function() {
-    console.log("overlay-tabclick");
-
-  });
-
-  $( "#overlay-back" ).click(function() {
-    console.log("overlay-back");
-
-  });
-
-  $( "#overlay-html" ).click(function() {
-    console.log("overlay-html");
-
-  });
-
-  $( "#overlay-autoplay" ).click(function() {
-    console.log("overlay-autoplay");
-
-  });
-
-  $( "#overlay-expand" ).click(function() {
-    console.log("overlay-expand");
-
-  });
-
-  $( "#overlay-collpse" ).click(function() {
-    console.log("overlay-collpse");
-
-  });
-
-  $( "#overlay-scroll" ).slider(function() {
-    console.log("overlay-scroll");
-
-  });
-
-  $( "#overlay-replay" ).click(function() {
-    console.log("overlay-replay");
-
-  });
-
-  $( "#overlay-play" ).click(function() {
-    console.log("overlay-play");
-
-  });
-
-  $( "#overlay-pause" ).click(function() {
-    console.log("overlay-pause");
-
-  });
-
-  $( "#overlay-seek" ).click(function() {
-    console.log("overlay-seek");
-
-  });
-
-  $( "#overlay-volume-click" ).click(function() {
-    console.log("overlay-volume-click");
-
-  });
-
-  $( "#overlay-volume-slider" ).slider(function() {
-    console.log("overlay-volume-slider");
-
-  });
-
-  // PlayByPLay
-
-  $( "#playby-click" ).click(function() {
-    console.log("playby-click");
-
-  });
-
-  $( "#playby-multicam" ).click(function() {
-    console.log("playby-multicam");
-
-  });
-
-  $( "#playby-share" ).click(function() {
-    console.log("playby-share");
-
-  });
-
-  // Commentary
-
-  $( "#commentary-scroll" ).slider(function() {
-    console.log("commentary-scroll");
-
-  });
-
-
-  /******** MULTICAM ******/
-
-  $( "#multicam-open" ).click(function() {
-    console.log("multicam-open");
-
-  });
-
-  $( "#multicam-close" ).click(function() {
-    console.log("multicam-close");
-
-  });
-
-  $( "#multicam-overlay-click" ).click(function() {
-    console.log("multicam-overlay-click");
-
-  });
-
-  $( "#multicam-overlay-open" ).click(function() {
-    console.log("multicam-overlay-open");
-
-  });
-
-  $( "#multicam-overlay-close" ).click(function() {
-    console.log("multicam-overlay-close");
-
-  });
-
-  $( "#multicam-camera-click" ).click(function() {
-    console.log("multicam-camera-click");
-
-  });
-
-  $( "#multicam-overlay-cam-click" ).click(function() {
-    console.log("multicam-overlay-cam-click");
-
-  });
-
-
-  /********** MULTISTREAM *******/
-
-  $( "#multistream-streamclick" ).click(function() {
-    console.log("multistream-streamclick");
-
-  });
-
-  $( "#multistream-pip" ).click(function() {
-    console.log("multistream-pip");
-
-  });
-
-  $( "#multistream-quad" ).click(function() {
-    console.log("multistream-quad");
-
-  });
-
-
-  /********** QUADCAM *********/
-
-  $( "#quad-main" ).click(function() {
-    console.log("quad-main");
-
-  });
-
-  $( "#quad-remove" ).click(function() {
-    console.log("quad-remove");
-
-  });
-
-  $( "#quad-swap" ).click(function() {
-    console.log("quad-swap");
-
-  });
-
-
-  /********* PIP ***********/
-
-  $( "#pip-close" ).click(function() {
-    console.log("pip-close");
-
-  });
-
-  $( "#pip-quad" ).click(function() {
-    console.log("pip-quad");
-
-  });
-
-  $( "#pip-main" ).click(function() {
-    console.log("pip-main");
-
-  });
-
-  $( "#pip-swap" ).click(function() {
-    console.log("pip-swap");
-
-  });
-
-  $( "#pip-resize" ).click(function() {
-    console.log("pip-resize");
-
-  });
-
-  $( "#pip-dbclick" ).click(function() {
-    console.log("pip-dbclick");
-
-  });
-
-  /*********** WIZARD ************/
-
-  $( "#wizard-close" ).click(function() {
-    console.log("wizard-close");
-
-  });
-
-  $( "#wizard-back" ).click(function() {
-    console.log("wizard-back");
-
-  });
-
-  $( "#wizard-next" ).click(function() {
-    console.log("wizard-next");
-
-  });
-
-  $( "#wizard-out" ).click(function() {
-    console.log("wizard-out");
-
-  });
-
-  /*********** ADV **************/
-
-  $( "#adv-click" ).click(function() {
-    console.log("adv-click");
-
-  });
-
-  $( "#adv-play" ).click(function() {
-    console.log("adv-play");
-
+    console.log("Pause");
+
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Pause',
+      'category' : 'Bar',
+      'action' : 'Click',
+      'play': 'false',
+      'nonInteraction' : false,
+      'virtualPageURL':'/video/1',
+      'virtualPageTitle' : 'Milan vs Argentina'
+    });
+  });
+  $( "#play" ).click(function() {
+    console.log("Play");
+
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Play',
+      'category' : 'Bar',
+      'action' : 'Click',
+      'play': 'true',
+      'nonInteraction' : false,
+      'virtualPageURL':'/video/1',
+      'virtualPageTitle' : 'Milan vs Argentina'
+    });
   });
-
-  $( "#adv-pause" ).click(function() {
-    console.log("adv-pause");
-
-  });
-
-  $( "#adv-mute" ).click(function() {
-    console.log("adv-mute");
-
-  });
-
-  /*********** END **************/
-
-  $( "#again" ).click(function() {
-    console.log("again");
-
-  });
-
-  $( "#suggested" ).click(function() {
-    console.log("suggested");
-
-  });
-
 });
