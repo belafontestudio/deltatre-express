@@ -1,5 +1,5 @@
-require('gulp-help');
-var gulp = require('gulp'), nodemon = require('gulp-nodemon'),
+var gulp = require('gulp-help')(require('gulp'));
+  var nodemon = require('gulp-nodemon'),
   plumber = require('gulp-plumber'),
   livereload = require('gulp-livereload'),
   stylus = require('gulp-stylus'),
