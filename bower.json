@@ -8,6 +8,10 @@
   ],
   "dependencies": {
     "bootstrap": "~3.3.5",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "seiyria-bootstrap-slider": "~5.0.13"
+  },
+  "devDependencies": {
+    "jquery-bridget": "~1.1.0"
   }
 }
