@@ -681,6 +681,21 @@ $( document ).ready(function() {
 
   /********** QUADCAM *********/
 
+  $( "#quad-click" ).click(function() {
+    console.log("quad-click");
+
+  });
+
+  $( "#quad-quad" ).click(function() {
+    console.log("quad-quad");
+
+  });
+
+  $( "#quad-pip" ).click(function() {
+    console.log("quad-pip");
+
+  });
+
   $( "#quad-main" ).click(function() {
     console.log("quad-main");
     dataLayer.push({
