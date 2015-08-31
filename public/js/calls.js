@@ -6,1120 +6,6 @@
 // });
 
 
-//ADV
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Adv',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Start',
-  'category' : 'Adv',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Stop',
-  'category' : 'Adv',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Mute',
-  'category' : 'Adv',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Play',
-  'category' : 'Adv',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Fail',
-  'category' : 'Adv',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Single Fail',
-  'category' : 'Adv',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Single Start',
-  'category' : 'Adv',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Single Stop',
-  'category' : 'Adv',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
-});
-
-
-//ALERT
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Alert',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/alert/1',
-  'virtualPageTitle' : 'alert1'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Activate',
-  'category' : 'Alert',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/alert/1',
-  'virtualPageTitle' : 'alert1'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Deactivate',
-  'category' : 'Alert',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/alert/1',
-  'virtualPageTitle' : 'alert1'
-});
-
-
-//BAR
-dataLayer.push({
-  'event':'interaction',
-  'label':'Replay',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Fullscreen',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Volume',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Volume',
-  'category' : 'Bar',
-  'action' : 'Slide',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Seek',
-  'category' : 'Bar',
-  'action' : 'Drag',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Seek',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Bitrate',
-  'category' : 'Bar',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'value' : 1,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Bitrate',
-  'category' : 'Bar',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Bitrate',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Chapter',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Milestone',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Marker',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Live',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Wizard',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-//Wizard
-dataLayer.push({
-  'event':'interaction',
-  'label':'Autostart',
-  'category' : 'Wizard',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/wizard/1',
-  'virtualPageTitle' : 'wizard id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Close',
-  'category' : 'Wizard',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/wizard/1',
-  'virtualPageTitle' : 'wizard id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Next',
-  'category' : 'Wizard',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/wizard/1',
-  'virtualPageTitle' : 'wizard id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Prev',
-  'category' : 'Wizard',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/wizard/1',
-  'virtualPageTitle' : 'wizard id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Out',
-  'category' : 'Wizard',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/wizard/1',
-  'virtualPageTitle' : 'wizard id'
-});
-
-
-//VIDEO
-dataLayer.push({
-  'event':'interaction',
-  'label':'Pause',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Play',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Seek',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'VOD/LIVE/DVR',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Close',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Start',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'End',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Main',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Main',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Quad',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Pip',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/video/1',
-  'virtualPageTitle' : 'video id'
-});
-
-//Fullscreen
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Fullscreen',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'player/1/fullscreen',
-  'virtualPageTitle' : 'player id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Close',
-  'category' : 'Fullscreen',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-//Maincam
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Maincam',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Close',
-  'category' : 'Maincam',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-//Share
-dataLayer.push({
-  'event':'interaction',
-  'label':'tw/fb/..',
-  'category' : 'Share',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/player/1/video/1/',
-  'virtualPageTitle' : 'player id'
-});
-
-//Player
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Player',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-//Marker
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Marker',
-  'action' : 'Hover',
-  'nonInteraction' : false,
-  'virtualPageURL':'/marker/1',
-  'virtualPageTitle' : 'marker id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'PlaybyPlay',
-  'category' : 'Marker',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/marker/1',
-  'virtualPageTitle' : 'marker id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Multicam',
-  'category' : 'Marker',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/marker/1',
-  'virtualPageTitle' : 'marker id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Share',
-  'category' : 'Marker',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/marker/1',
-  'virtualPageTitle' : 'marker id'
-});
-
-//MILESTONE
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Milestone',
-  'action' : 'Hover',
-  'nonInteraction' : false,
-  'virtualPageURL':'/milestone/1',
-  'virtualPageTitle' : 'milestone id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'PlayByPlay',
-  'category' : 'Milestone',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/milestone/1',
-  'virtualPageTitle' : 'milestone id'
-});
-
-//COMMENTARY OVERLAY
-dataLayer.push({
-  'event':'interaction',
-  'label':'PlayByPlay',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Multicam',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Share',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-
-//OVERLAY
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Overlay',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Close',
-  'category' : 'Overlay',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Tab',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Viewport',
-  'category' : 'Overlay',
-  'action' : 'Scroll',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Expand',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Collapse',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Back',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Html',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Play',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Pause',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Replay',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Seek',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Volume',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Volume',
-  'category' : 'Overlay',
-  'action' : 'Slide',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Prev',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Next',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-
-//TAB MENU
-dataLayer.push({
-  'event':'interaction',
-  'label':'Overlay title',
-  'category' : 'Tab',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Share',
-  'category' : 'Tab',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-
-//MULTICAM
-dataLayer.push({
-  'event':'interaction',
-  'label':'Loaded',
-  'category' : 'Multicam',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Start',
-  'category' : 'Multicam',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'End',
-  'category' : 'Multicam',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Multicam',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Close',
-  'category' : 'Multicam',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Camera',
-  'category' : 'Multicam',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Overlay',
-  'category' : 'Multicam',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Related',
-  'category' : 'Multicam',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-//MULTICAM OVERLAY
-dataLayer.push({
-  'event':'interaction',
-  'label':'Close',
-  'category' : 'Multicam Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Multicam Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Camera',
-  'category' : 'Multicam Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
-
-//PIP
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Pip',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/pip/1',
-  'virtualPageTitle' : 'pip id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Close',
-  'category' : 'Pip',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/pip/1',
-  'virtualPageTitle' : 'pip id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Main',
-  'category' : 'Pip',
-  'action' : 'DoubleClick',
-  'nonInteraction' : false,
-  'virtualPageURL':'/pip/1',
-  'virtualPageTitle' : 'pip id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Swap',
-  'category' : 'Pip',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/pip/1',
-  'virtualPageTitle' : 'pip id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Main',
-  'category' : 'Pip',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/pip/1',
-  'virtualPageTitle' : 'pip id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Quad',
-  'category' : 'Pip',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/pip/1',
-  'virtualPageTitle' : 'pip id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Resize',
-  'category' : 'Pip',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/pip/1',
-  'virtualPageTitle' : 'pip id'
-});
-
-//QUADCAM
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Close',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Remove',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Swap',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Main',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Quad',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Pip',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
-
-//MULTISTREAM
-dataLayer.push({
-  'event':'interaction',
-  'label':'Stream',
-  'category' : 'Multistream',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multistream/1',
-  'virtualPageTitle' : 'multistream id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Pip',
-  'category' : 'Multistream',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multistream/1',
-  'virtualPageTitle' : 'multistream id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Quad',
-  'category' : 'Multistream',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multistream/1',
-  'virtualPageTitle' : 'multistream id'
-});
-//SUGGESTED
-dataLayer.push({
-  'event':'interaction',
-  'label':'Watch again',
-  'category' : 'Suggested',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/suggested/1',
-  'virtualPageTitle' : 'suggested id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Select',
-  'category' : 'Suggested',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/suggested/1',
-  'virtualPageTitle' : 'suggested id'
-});
-//CHAPTER
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Chapter',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/chapter/1',
-  'virtualPageTitle' : 'chapter id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Close',
-  'category' : 'Chapter',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/chapter/1',
-  'virtualPageTitle' : 'chapter id'
-});
-
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/chapter/1',
-  'virtualPageTitle' : 'chapter ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/chapter/1',
-  'virtualPageTitle' : 'chapter ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/wizard/1',
-  'virtualPageTitle' : 'wizard ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/fullscreen/1',
-  'virtualPageTitle' : 'fullscreen ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/maincam/1',
-  'virtualPageTitle' : 'maincam ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/marker/1',
-  'virtualPageTitle' : 'marker ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/milestone/1',
-  'virtualPageTitle' : 'milestone ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/pip/1',
-  'virtualPageTitle' : 'pip ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/multistream/1',
-  'virtualPageTitle' : 'multistream ID'
-});
-dataLayer.push({
-  'event':'VirtualPageview',
-  'virtualPageURL':'/suggested/1',
-  'virtualPageTitle' : 'suggested ID'
-});
 
 $( document ).ready(function() {
   // analytics.page({
@@ -1129,12 +15,7 @@ $( document ).ready(function() {
   // });
   dataLayer.push({
     'event':'VirtualPageview',
-    'virtualPageURL':'/player/1',
-    'virtualPageTitle' : 'Player ID'
-  });
-  dataLayer.push({
-    'event':'VirtualPageview',
-    'virtualPageURL':'/video/1',
+    'virtualPageURL':'/video',
     'virtualPageTitle' : 'Milan vs Argentina'
   });
   $("#alert").fadeIn(10000, function() {
@@ -1145,32 +26,21 @@ $( document ).ready(function() {
       // });
       dataLayer.push({
         'event':'VirtualPageview',
-        'virtualPageURL':'/alert/1',
-        'virtualPageTitle' : 'alert1'
-      });
-      dataLayer.push({
-        'event':'interaction',
-        'label':'Open',
-        'category' : 'Alert',
-        'action' : 'Click',
-        'nonInteraction' : true,
-        'virtualPageURL':'/alert/1',
+        'virtualPageURL':'/alert',
         'virtualPageTitle' : 'alert1'
       });
     });
-  $( "#commentary" ).click(function() {
-    // analytics.page({
-    //   title: 'Commentary',
-    //   path: '/commentary',
-    // });
-  });
 
-  $( "#alert .close" ).click(function() {
-    console.log("Alert Close");
-    // analytics.track('ALERT_CLOSE');
+
+
+
+  /* ALERT */
+
+  $( "#alert-click" ).click(function() {
+    console.log("alert-click");
     dataLayer.push({
       'event':'interaction',
-      'label':'Close',
+      'label':'Open',
       'category' : 'Alert',
       'action' : 'Click',
       'nonInteraction' : false,
@@ -1178,32 +48,849 @@ $( document ).ready(function() {
       'virtualPageTitle' : 'alert1'
     });
   });
+  $( "#alert-close" ).click(function() {
+    console.log("alert-close");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Close',
+      'category' : 'Alert',
+      'action' : 'Click',
+      'virtualPageURL':'/alert/1',
+      'virtualPageTitle' : 'alert1'
+    });
+  });
+  $( "#alert-on" ).click(function() {
+    console.log("alert-on");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Activate',
+      'category' : 'Alert',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/alert/1',
+      'virtualPageTitle' : 'alert1'
+    });
+  });
+  $( "#alert-off" ).click(function() {
+    console.log("alert-off");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Deactivate',
+      'category' : 'Alert',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/alert/1',
+      'virtualPageTitle' : 'alert1'
+    });
+  });
+
+  /********* BAR *********/
+
+  $( "#replay" ).click(function() {
+    console.log("replay");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Replay',
+      'category' : 'Bar',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
+  });
+
+  $( "#play" ).click(function() {
+    console.log("play");
+
+  });
+
   $( "#pause" ).click(function() {
-    console.log("Pause");
+    console.log("pause");
+
+  });
+
+  $( "#wizard" ).click(function() {
+    console.log("wizard");
+
+  });
+
+  $( "#fullscreen" ).click(function() {
+    console.log("fullscreen");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Fullscreen',
+      'category' : 'Bar',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
+  });
+
+  // Bitrate
+
+  $( "#bitrate-auto" ).click(function() {
+    console.log("bitrate-auto");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Bitrate',
+      'category' : 'Bar',
+      'action' : 'Auto',
+      'nonInteraction' : true,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
+  });
+
+  $( "#bitrate-manual" ).click(function() {
+    console.log("bitrate-manual");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Bitrate',
+      'category' : 'Bar',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
+  });
+
+  $( "#bitrate-change" ).click(function() {
+    console.log("bitrate-change");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Bitrate',
+      'category' : 'Bar',
+      'action' : 'Auto',
+      'nonInteraction' : true,
+      'value' : 1,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
+  });
+
+  // Marker
+
+  $( "#marker-popup" ).click(function() {
+    console.log("marker-popup");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Marker',
+      'category' : 'Bar',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
+  });
+
+  $( "#marker-popupclick" ).click(function() {
+    console.log("marker-popupclick");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'PlaybyPlay',
+      'category' : 'Marker',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/marker/1',
+      'virtualPageTitle' : 'marker id'
+    });
+  });
+
+  $( "#marker-multicam" ).click(function() {
+    console.log("marker-multicam");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Multicam',
+      'category' : 'Marker',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/marker/1',
+      'virtualPageTitle' : 'marker id'
+    });
+  });
+
+  $( "#marker-share" ).click(function() {
+    console.log("marker-share");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Share',
+      'category' : 'Marker',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/marker/1',
+      'virtualPageTitle' : 'marker id'
+    });
+  });
+
+  // Milestones
+
+  $( "#milestone" ).click(function() {
+    console.log("milestone");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Milestone',
+      'category' : 'Bar',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
+  });
+
+  $( "#milestone-view" ).click(function() {
+    console.log("milestone-view");
+
+  });
+
+  $( "#milestone-hover" ).click(function() {
+    console.log("milestone-hover");
+
+  });
+
+  $( "#milestone-pbp" ).click(function() {
+    console.log("milestone-pbp");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'PlayByPlay',
+      'category' : 'Milestone',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/milestone/1',
+      'virtualPageTitle' : 'milestone id'
+    });
+  });
+
+  $( "#chapter" ).click(function() {
+    console.log("chapter");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Chapter',
+      'category' : 'Bar',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
+  });
+
+  // Volume
+
+  $( "#volume" ).slider(function() {
+    console.log("volume");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Volume',
+      'category' : 'Bar',
+      'action' : 'Slide',
+      'nonInteraction' : false,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
+  });
+
+  $( "#mute" ).click(function() {
+    console.log("mute");
+
+  });
+
+
+  // Share
+
+  $( "#share-main" ).click(function() {
+    console.log("share-main");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Share',
+      'category' : 'Tab',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+  });
+
+  $( "#share-click" ).click(function() {
+    console.log("share-click");
+
+  });
+
+
+
+  /******** OVERLAY ******/
+
+  $( "#tab-click" ).click(function() {
+    console.log("tab-click");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Overlay title',
+      'category' : 'Tab',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+  });
+
+  $( "#overlay-tabclick" ).click(function() {
+    console.log("overlay-tabclick");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Tab',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+  });
+
+  $( "#overlay-back" ).click(function() {
+    console.log("overlay-back");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Back',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+  });
+
+  $( "#overlay-html" ).click(function() {
+    console.log("overlay-html");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Html',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+
+  });
+
+
+
+  $( "#overlay-expand" ).click(function() {
+    console.log("overlay-expand");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Expand',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+  });
+
+  $( "#overlay-collpse" ).click(function() {
+    console.log("overlay-collpse");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Collapse',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+
+  });
+
+  $( "#overlay-scroll" ).slider(function() {
+    console.log("overlay-scroll");
 
     dataLayer.push({
       'event':'interaction',
-      'label':'Pause',
-      'category' : 'Bar',
-      'action' : 'Click',
-      'play': 'false',
+      'label':'Viewport',
+      'category' : 'Overlay',
+      'action' : 'Scroll',
       'nonInteraction' : false,
-      'virtualPageURL':'/video/1',
-      'virtualPageTitle' : 'Milan vs Argentina'
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
     });
   });
-  $( "#play" ).click(function() {
-    console.log("Play");
 
+  $( "#overlay-replay" ).click(function() {
+    console.log("overlay-replay");
+
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Replay',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+  });
+
+  $( "#overlay-play" ).click(function() {
+    console.log("overlay-play");
     dataLayer.push({
       'event':'interaction',
       'label':'Play',
-      'category' : 'Bar',
+      'category' : 'Overlay',
       'action' : 'Click',
-      'play': 'true',
       'nonInteraction' : false,
-      'virtualPageURL':'/video/1',
-      'virtualPageTitle' : 'Milan vs Argentina'
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
     });
   });
+
+  $( "#overlay-pause" ).click(function() {
+    console.log("overlay-pause");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Pause',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+  });
+
+  $( "#overlay-seek" ).click(function() {
+    console.log("overlay-seek");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Seek',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+  });
+
+  $( "#overlay-volume-click" ).click(function() {
+    console.log("overlay-volume-click");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Volume',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+  });
+
+  $( "#overlay-volume-slider" ).slider(function() {
+    console.log("overlay-volume-slider");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Volume',
+      'category' : 'Overlay',
+      'action' : 'Slide',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
+  });
+
+  // PlayByPLay
+
+  $( "#playby-click" ).click(function() {
+    console.log("playby-click");
+
+  });
+
+  $( "#playby-multicam" ).click(function() {
+    console.log("playby-multicam");
+
+  });
+
+  $( "#playby-share" ).click(function() {
+    console.log("playby-share");
+
+  });
+
+  // Commentary
+
+  $( "#commentary-scroll" ).slider(function() {
+    console.log("commentary-scroll");
+
+  });
+
+
+  /******** MULTICAM ******/
+
+  $( "#multicam-open" ).click(function() {
+    console.log("multicam-open");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Open',
+      'category' : 'Multicam',
+      'action' : 'Auto',
+      'nonInteraction' : true,
+      'virtualPageURL':'/multicam/1',
+      'virtualPageTitle' : 'multicam id'
+    });
+  });
+
+  $( "#multicam-close" ).click(function() {
+    console.log("multicam-close");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Close',
+      'category' : 'Multicam',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/multicam/1',
+      'virtualPageTitle' : 'multicam id'
+    });
+  });
+
+  $( "#multicam-overlay-click" ).click(function() {
+    console.log("multicam-overlay-click");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Overlay',
+      'category' : 'Multicam',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/multicam/1',
+      'virtualPageTitle' : 'multicam id'
+    });
+  });
+
+  $( "#multicam-overlay-open" ).click(function() {
+    console.log("multicam-overlay-open");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Open',
+      'category' : 'Multicam Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/multicam/1',
+      'virtualPageTitle' : 'multicam id'
+    });
+  });
+
+  $( "#multicam-overlay-close" ).click(function() {
+    console.log("multicam-overlay-close");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Close',
+      'category' : 'Multicam Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/multicam/1',
+      'virtualPageTitle' : 'multicam id'
+    });
+  });
+
+  $( "#multicam-camera-click" ).click(function() {
+    console.log("multicam-camera-click");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Camera',
+      'category' : 'Multicam',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/multicam/1',
+      'virtualPageTitle' : 'multicam id'
+    });
+  });
+
+  $( "#multicam-overlay-cam-click" ).click(function() {
+    console.log("multicam-overlay-cam-click");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Camera',
+      'category' : 'Multicam Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/multicam/1',
+      'virtualPageTitle' : 'multicam id'
+    });
+  });
+
+
+  /********** MULTISTREAM *******/
+
+  $( "#multistream-streamclick" ).click(function() {
+    console.log("multistream-streamclick");
+
+  });
+
+  $( "#multistream-pip" ).click(function() {
+    console.log("multistream-pip");
+
+  });
+
+  $( "#multistream-quad" ).click(function() {
+    console.log("multistream-quad");
+
+  });
+
+
+  /********** QUADCAM *********/
+
+  $( "#quad-main" ).click(function() {
+    console.log("quad-main");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Main',
+      'category' : 'Quad',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/quadcam/1',
+      'virtualPageTitle' : 'quadcam id'
+    });
+  });
+
+  $( "#quad-remove" ).click(function() {
+    console.log("quad-remove");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Remove',
+      'category' : 'Quad',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/quadcam/1',
+      'virtualPageTitle' : 'quadcam id'
+    });
+  });
+
+  $( "#quad-swap" ).click(function() {
+    console.log("quad-swap");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Swap',
+      'category' : 'Quad',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/quadcam/1',
+      'virtualPageTitle' : 'quadcam id'
+    });
+  });
+
+
+  /********* PIP ***********/
+
+  $( "#pip-close" ).click(function() {
+    console.log("pip-close");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Close',
+      'category' : 'Pip',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/pip/1',
+      'virtualPageTitle' : 'pip id'
+    });
+
+  });
+
+  $( "#pip-quad" ).click(function() {
+    console.log("pip-quad");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Quad',
+      'category' : 'Pip',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/pip/1',
+      'virtualPageTitle' : 'pip id'
+    });
+  });
+
+  $( "#pip-main" ).click(function() {
+    console.log("pip-main");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Main',
+      'category' : 'Pip',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/pip/1',
+      'virtualPageTitle' : 'pip id'
+    });
+  });
+
+  $( "#pip-swap" ).click(function() {
+    console.log("pip-swap");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Swap',
+      'category' : 'Pip',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/pip/1',
+      'virtualPageTitle' : 'pip id'
+    });
+  });
+
+  $( "#pip-resize" ).click(function() {
+    console.log("pip-resize");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Resize',
+      'category' : 'Pip',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/pip/1',
+      'virtualPageTitle' : 'pip id'
+    });
+
+  });
+
+  $( "#pip-dbclick" ).click(function() {
+    console.log("pip-dbclick");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Main',
+      'category' : 'Pip',
+      'action' : 'DoubleClick',
+      'nonInteraction' : false,
+      'virtualPageURL':'/pip/1',
+      'virtualPageTitle' : 'pip id'
+    });
+  });
+
+  /*********** WIZARD ************/
+
+  $( "#wizard-close" ).click(function() {
+    console.log("wizard-close");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Close',
+      'category' : 'Wizard',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/wizard/1',
+      'virtualPageTitle' : 'wizard id'
+    });
+
+
+  });
+
+  $( "#wizard-back" ).click(function() {
+    console.log("wizard-back");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Prev',
+      'category' : 'Wizard',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/wizard/1',
+      'virtualPageTitle' : 'wizard id'
+    });
+  });
+
+  $( "#wizard-next" ).click(function() {
+    console.log("wizard-next");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Next',
+      'category' : 'Wizard',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/wizard/1',
+      'virtualPageTitle' : 'wizard id'
+    });
+  });
+
+  $( "#wizard-out" ).click(function() {
+    console.log("wizard-out");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Out',
+      'category' : 'Wizard',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/wizard/1',
+      'virtualPageTitle' : 'wizard id'
+    });
+  });
+
+  /*********** ADV **************/
+
+  $( "#adv-click" ).click(function() {
+    console.log("adv-click");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Open',
+      'category' : 'Adv',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/adv/1',
+      'virtualPageTitle' : 'adv1'
+    });
+  });
+
+  $( "#adv-play" ).click(function() {
+    console.log("adv-play");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Play',
+      'category' : 'Adv',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/adv/1',
+      'virtualPageTitle' : 'adv1'
+    });
+  });
+
+  $( "#adv-pause" ).click(function() {
+    console.log("adv-pause");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Pause',
+      'category' : 'Adv',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/adv/1',
+      'virtualPageTitle' : 'adv1'
+    });
+  });
+
+  $( "#adv-mute" ).click(function() {
+    console.log("adv-mute");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Mute',
+      'category' : 'Adv',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/adv/1',
+      'virtualPageTitle' : 'adv1'
+    });
+  });
+
+  /*********** END **************/
+
+  $( "#again" ).click(function() {
+    console.log("again");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Watch again',
+      'category' : 'Suggested',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/suggested/1',
+      'virtualPageTitle' : 'suggested id'
+    });
+  });
+
+  $( "#suggested" ).click(function() {
+    console.log("suggested");
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Select',
+      'category' : 'Suggested',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/suggested/1',
+      'virtualPageTitle' : 'suggested id'
+    });
+  });
+
 });
