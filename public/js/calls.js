@@ -86,6 +86,16 @@ $( document ).ready(function() {
 
   /********* BAR *********/
 
+  $( "#seek" ).click(function() {
+    console.log("seek");
+
+  });
+
+  $( "#seek" ).slider(function() {
+    console.log("seek");
+
+  });
+
   $( "#replay" ).click(function() {
     console.log("replay");
     dataLayer.push({
@@ -106,6 +116,11 @@ $( document ).ready(function() {
 
   $( "#pause" ).click(function() {
     console.log("pause");
+
+  });
+
+  $( "#live" ).click(function() {
+    console.log("live");
 
   });
 
@@ -223,6 +238,15 @@ $( document ).ready(function() {
     });
   });
 
+  $( "#marker-click" ).click(function() {
+    console.log("marker-click");
+  });
+
+  $( "#marker-hover" ).hover(function() {
+    console.log("marker-hover");
+
+  });
+
   // Milestones
 
   $( "#milestone" ).click(function() {
@@ -243,7 +267,12 @@ $( document ).ready(function() {
 
   });
 
-  $( "#milestone-hover" ).click(function() {
+  $( "#milestone-click" ).click(function() {
+    console.log("milestone-click");
+
+  });
+
+  $( "#milestone-hover" ).hover(function() {
     console.log("milestone-hover");
 
   });
@@ -466,6 +495,16 @@ $( document ).ready(function() {
       'virtualPageURL':'/overlay/1',
       'virtualPageTitle' : 'overlay id'
     });
+  });
+
+  $( "#overlay-prev" ).click(function() {
+    console.log("overlay-prev");
+
+  });
+
+  $( "#overlay-next" ).click(function() {
+    console.log("overlay-next");
+
   });
 
   $( "#overlay-volume-click" ).click(function() {

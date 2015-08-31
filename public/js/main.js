@@ -5,7 +5,7 @@ $('#ex1').slider({
 	}
 });
 
-$('#ex2').slider({
+$('#seek').slider({
 	formatter: function(value) {
 		return 'Current value: ' + value;
 	}

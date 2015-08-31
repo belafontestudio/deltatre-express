@@ -36,13 +36,14 @@ block content
       .panel-heading
         h3.panel-title Bar   
       .panel-body
-        input#ex1(data-slider-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='20', data-slider-step='1', data-slider-value='14')
-        input#ex2(data-slider-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='20', data-slider-step='1', data-slider-value='14')
+        input#seek(data-slider-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='20', data-slider-step='1', data-slider-value='14')
+        
         .btn-toolbar(role='toolbar', aria-label='...')
           .btn-group(role='group', aria-label='...')
             button#replay.btn.btn-default(type='button') Replay
             button#play.btn.btn-default(type='button') Play    
             button#pause.btn.btn-default(type='button') Pause
+            button#live.btn.btn-default(type='button') Live/Vod
 
           .btn-group(role='group', aria-label='...')
             
@@ -107,6 +108,8 @@ block content
           button#overlay-play.btn.btn-default(type='button') Overlay Play
           button#overlay-pause.btn.btn-default(type='button') Overlay Pause
           button#overlay-seek.btn.btn-default(type='button') Overlay Seek
+          button#overlay-prev.btn.btn-default(type='button') Overlay Prev
+          button#overlay-next.btn.btn-default(type='button') Overlay Next
           button#overlay-volume-click.btn.btn-default(type='button') Overlay Volume Click
           br
           br
