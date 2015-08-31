@@ -96,6 +96,11 @@ $( document ).ready(function() {
 
   });
 
+  $( "#seek" ).hover(function() {
+    console.log("seek");
+
+  });
+
   $( "#replay" ).click(function() {
     console.log("replay");
     dataLayer.push({
