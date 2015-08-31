@@ -88,12 +88,28 @@ $( document ).ready(function() {
 
   $( "#seek" ).click(function() {
     console.log("seek");
-
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Seek',
+      'category' : 'Bar',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
   });
 
   $( "#seek" ).slider(function() {
     console.log("seek");
-
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Seek',
+      'category' : 'Bar',
+      'action' : 'Drag',
+      'nonInteraction' : false,
+      'virtualPageURL':'/player/1',
+      'virtualPageTitle' : 'player id'
+    });
   });
 
   $( "#replay" ).click(function() {
@@ -283,7 +299,15 @@ $( document ).ready(function() {
 
   $( "#marker-hover" ).hover(function() {
     console.log("marker-hover");
-
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Open',
+      'category' : 'Marker',
+      'action' : 'Hover',
+      'nonInteraction' : false,
+      'virtualPageURL':'/marker/1',
+      'virtualPageTitle' : 'marker id'
+    });
   });
 
   // Milestones
@@ -313,7 +337,15 @@ $( document ).ready(function() {
 
   $( "#milestone-hover" ).hover(function() {
     console.log("milestone-hover");
-
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Open',
+      'category' : 'Milestone',
+      'action' : 'Hover',
+      'nonInteraction' : false,
+      'virtualPageURL':'/milestone/1',
+      'virtualPageTitle' : 'milestone id'
+    });
   });
 
   $( "#milestone-pbp" ).click(function() {
@@ -546,12 +578,28 @@ $( document ).ready(function() {
 
   $( "#overlay-prev" ).click(function() {
     console.log("overlay-prev");
-
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Prev',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
   });
 
   $( "#overlay-next" ).click(function() {
     console.log("overlay-next");
-
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Next',
+      'category' : 'Overlay',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/overlay/1',
+      'virtualPageTitle' : 'overlay id'
+    });
   });
 
   $( "#overlay-volume-click" ).click(function() {

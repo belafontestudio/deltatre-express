@@ -53,25 +53,6 @@ dataLayer.push({
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
 });
-dataLayer.push({
-  'event':'interaction',
-  'label':'Seek',
-  'category' : 'Bar',
-  'action' : 'Drag',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
-
-dataLayer.push({
-  'event':'interaction',
-  'label':'Seek',
-  'category' : 'Bar',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/player/1',
-  'virtualPageTitle' : 'player id'
-});
 //Wizard
 dataLayer.push({
   'event':'interaction',
@@ -249,26 +230,6 @@ dataLayer.push({
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
 });
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Marker',
-  'action' : 'Hover',
-  'nonInteraction' : false,
-  'virtualPageURL':'/marker/1',
-  'virtualPageTitle' : 'marker id'
-});
-//MILESTONE
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Milestone',
-  'action' : 'Hover',
-  'nonInteraction' : false,
-  'virtualPageURL':'/milestone/1',
-  'virtualPageTitle' : 'milestone id'
-});
-
 //OVERLAY
 dataLayer.push({
   'event':'interaction',
@@ -285,24 +246,6 @@ dataLayer.push({
   'category' : 'Overlay',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Prev',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Next',
-  'category' : 'Overlay',
-  'action' : 'Click',
-  'nonInteraction' : false,
   'virtualPageURL':'/overlay/1',
   'virtualPageTitle' : 'overlay id'
 });
