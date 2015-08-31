@@ -656,6 +656,10 @@ $( document ).ready(function() {
     });
   });
 
+  $( "#multicam-related" ).click(function() {
+    console.log("multicam-related");
+
+  });
 
   /********** MULTISTREAM *******/
 
