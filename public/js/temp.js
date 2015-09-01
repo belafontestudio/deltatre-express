@@ -17,6 +17,7 @@ dataLayer.push({
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
 });
+
 dataLayer.push({
   'event':'interaction',
   'label':'Fail',
@@ -26,6 +27,7 @@ dataLayer.push({
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
 });
+
 dataLayer.push({
   'event':'interaction',
   'label':'Single Fail',
@@ -35,6 +37,7 @@ dataLayer.push({
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
 });
+
 dataLayer.push({
   'event':'interaction',
   'label':'Single Start',
@@ -44,6 +47,7 @@ dataLayer.push({
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
 });
+
 dataLayer.push({
   'event':'interaction',
   'label':'Single Stop',
@@ -53,6 +57,83 @@ dataLayer.push({
   'virtualPageURL':'/adv/1',
   'virtualPageTitle' : 'adv1'
 });
+
+
+//ALERT
+
+
+
+
+
+
+
+//BAR
+
+
+
+
+dataLayer.push({
+  'event':'interaction',
+  'label':'Volume',
+  'category' : 'Bar',
+  'action' : 'Click',
+  'nonInteraction' : false,
+  'virtualPageURL':'/player/1',
+  'virtualPageTitle' : 'player id'
+});
+
+
+
+dataLayer.push({
+  'event':'interaction',
+  'label':'Seek',
+  'category' : 'Bar',
+  'action' : 'Drag',
+  'nonInteraction' : false,
+  'virtualPageURL':'/player/1',
+  'virtualPageTitle' : 'player id'
+});
+
+dataLayer.push({
+  'event':'interaction',
+  'label':'Seek',
+  'category' : 'Bar',
+  'action' : 'Click',
+  'nonInteraction' : false,
+  'virtualPageURL':'/player/1',
+  'virtualPageTitle' : 'player id'
+});
+
+
+
+
+
+
+
+
+
+
+
+dataLayer.push({
+  'event':'interaction',
+  'label':'Live',
+  'category' : 'Bar',
+  'action' : 'Click',
+  'nonInteraction' : false,
+  'virtualPageURL':'/player/1',
+  'virtualPageTitle' : 'player id'
+});
+
+dataLayer.push({
+  'event':'interaction',
+  'label':'Wizard',
+  'category' : 'Bar',
+  'action' : 'Click',
+  'nonInteraction' : false,
+  'virtualPageURL':'/player/1',
+  'virtualPageTitle' : 'player id'
+});
+
 //Wizard
 dataLayer.push({
   'event':'interaction',
@@ -63,6 +144,16 @@ dataLayer.push({
   'virtualPageURL':'/wizard/1',
   'virtualPageTitle' : 'wizard id'
 });
+
+
+
+
+
+
+
+
+
+
 //VIDEO
 dataLayer.push({
   'event':'interaction',
@@ -172,6 +263,7 @@ dataLayer.push({
   'virtualPageURL':'/video/1',
   'virtualPageTitle' : 'video id'
 });
+
 //Fullscreen
 dataLayer.push({
   'event':'interaction',
@@ -191,6 +283,7 @@ dataLayer.push({
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
 });
+
 //Maincam
 dataLayer.push({
   'event':'interaction',
@@ -210,6 +303,7 @@ dataLayer.push({
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
 });
+
 //Share
 dataLayer.push({
   'event':'interaction',
@@ -220,6 +314,7 @@ dataLayer.push({
   'virtualPageURL':'/player/1/video/1/',
   'virtualPageTitle' : 'player id'
 });
+
 //Player
 dataLayer.push({
   'event':'interaction',
@@ -230,6 +325,65 @@ dataLayer.push({
   'virtualPageURL':'/player/1',
   'virtualPageTitle' : 'player id'
 });
+
+dataLayer.push({
+  'event':'interaction',
+  'label':'Open',
+  'category' : 'Marker',
+  'action' : 'Hover',
+  'nonInteraction' : false,
+  'virtualPageURL':'/marker/1',
+  'virtualPageTitle' : 'marker id'
+});
+
+
+
+
+
+
+
+//MILESTONE
+dataLayer.push({
+  'event':'interaction',
+  'label':'Open',
+  'category' : 'Milestone',
+  'action' : 'Hover',
+  'nonInteraction' : false,
+  'virtualPageURL':'/milestone/1',
+  'virtualPageTitle' : 'milestone id'
+});
+
+
+
+//COMMENTARY OVERLAY
+dataLayer.push({
+  'event':'interaction',
+  'label':'PlayByPlay',
+  'category' : 'Overlay',
+  'action' : 'Click',
+  'nonInteraction' : false,
+  'virtualPageURL':'/overlay/1',
+  'virtualPageTitle' : 'overlay id'
+});
+dataLayer.push({
+  'event':'interaction',
+  'label':'Multicam',
+  'category' : 'Overlay',
+  'action' : 'Click',
+  'nonInteraction' : false,
+  'virtualPageURL':'/overlay/1',
+  'virtualPageTitle' : 'overlay id'
+});
+dataLayer.push({
+  'event':'interaction',
+  'label':'Share',
+  'category' : 'Overlay',
+  'action' : 'Click',
+  'nonInteraction' : false,
+  'virtualPageURL':'/overlay/1',
+  'virtualPageTitle' : 'overlay id'
+});
+
 //OVERLAY
 dataLayer.push({
   'event':'interaction',
@@ -249,6 +403,38 @@ dataLayer.push({
   'virtualPageURL':'/overlay/1',
   'virtualPageTitle' : 'overlay id'
 });
+
+
+
+
+
+
+
+
+
+
+
+dataLayer.push({
+  'event':'interaction',
+  'label':'Prev',
+  'category' : 'Overlay',
+  'action' : 'Click',
+  'nonInteraction' : false,
+  'virtualPageURL':'/overlay/1',
+  'virtualPageTitle' : 'overlay id'
+});
+dataLayer.push({
+  'event':'interaction',
+  'label':'Next',
+  'category' : 'Overlay',
+  'action' : 'Click',
+  'nonInteraction' : false,
+  'virtualPageURL':'/overlay/1',
+  'virtualPageTitle' : 'overlay id'
+});
+
+
+
 //MULTICAM
 dataLayer.push({
   'event':'interaction',
@@ -277,6 +463,10 @@ dataLayer.push({
   'virtualPageURL':'/multicam/1',
   'virtualPageTitle' : 'multicam id'
 });
+
+
+
+
 dataLayer.push({
   'event':'interaction',
   'label':'Related',
@@ -286,6 +476,11 @@ dataLayer.push({
   'virtualPageURL':'/multicam/1',
   'virtualPageTitle' : 'multicam id'
 });
+//MULTICAM OVERLAY
+
+
+
+
 //PIP
 dataLayer.push({
   'event':'interaction',
@@ -296,6 +491,12 @@ dataLayer.push({
   'virtualPageURL':'/pip/1',
   'virtualPageTitle' : 'pip id'
 });
+
+
+
+
+
+
 //QUADCAM
 dataLayer.push({
   'event':'interaction',
@@ -315,6 +516,9 @@ dataLayer.push({
   'virtualPageURL':'/quadcam/1',
   'virtualPageTitle' : 'quadcam id'
 });
+
+
+
 dataLayer.push({
   'event':'interaction',
   'label':'Quad',
@@ -333,6 +537,7 @@ dataLayer.push({
   'virtualPageURL':'/quadcam/1',
   'virtualPageTitle' : 'quadcam id'
 });
+
 //MULTISTREAM
 dataLayer.push({
   'event':'interaction',
@@ -361,6 +566,9 @@ dataLayer.push({
   'virtualPageURL':'/multistream/1',
   'virtualPageTitle' : 'multistream id'
 });
+
+
+
 //CHAPTER
 dataLayer.push({
   'event':'interaction',
@@ -380,6 +588,7 @@ dataLayer.push({
   'virtualPageURL':'/chapter/1',
   'virtualPageTitle' : 'chapter id'
 });
+
 dataLayer.push({
   'event':'VirtualPageview',
   'virtualPageURL':'/chapter/1',
