@@ -753,7 +753,15 @@ $( document ).ready(function() {
 
   $( "#multicam-related" ).click(function() {
     console.log("multicam-related");
-
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Related',
+      'category' : 'Multicam',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/multicam/1',
+      'virtualPageTitle' : 'multicam id'
+    });
   });
 
   /********** MULTISTREAM *******/
@@ -778,17 +786,41 @@ $( document ).ready(function() {
 
   $( "#quad-click" ).click(function() {
     console.log("quad-click");
-
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Open',
+      'category' : 'Quad',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/quadcam/1',
+      'virtualPageTitle' : 'quadcam id'
+    });
   });
 
   $( "#quad-quad" ).click(function() {
     console.log("quad-quad");
-
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Quad',
+      'category' : 'Quad',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/quadcam/1',
+      'virtualPageTitle' : 'quadcam id'
+    });
   });
 
   $( "#quad-pip" ).click(function() {
     console.log("quad-pip");
-
+    dataLayer.push({
+      'event':'interaction',
+      'label':'Pip',
+      'category' : 'Quad',
+      'action' : 'Click',
+      'nonInteraction' : false,
+      'virtualPageURL':'/quadcam/1',
+      'virtualPageTitle' : 'quadcam id'
+    });
   });
 
   $( "#quad-main" ).click(function() {
