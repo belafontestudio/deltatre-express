@@ -28,6 +28,58 @@ block content
           button#alert-off.btn.btn-default(type='button') Off 
     
     
+    .panel.panel-default
+      .panel-heading
+        h3.panel-title Bar   
+      .panel-body
+        input#seek(data-slider-id='seek-id', type='text', data-slider-min='0', data-slider-max='20', data-slider-step='1', data-slider-value='14')
+        
+        .btn-toolbar(role='toolbar', aria-label='...')
+          .btn-group(role='group', aria-label='...')
+            button#replay.btn.btn-default(type='button') Replay
+            button#play.btn.btn-default(type='button') Play    
+            button#pause.btn.btn-default(type='button') Pause
+            button#live.btn.btn-default(type='button') Live/Vod
+
+          .btn-group(role='group', aria-label='...')
+            
+            button#wizard.btn.btn-default(type='button') Wizard    
+            button#fullscreen.btn.btn-default(type='button') Fullscreen
+      
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Bitrate
+          button#bitrate-auto.btn.btn-default(type='button') Bitrate Auto
+          button#bitrate-manual.btn.btn-default(type='button') Bitrate Manual
+          button#bitrate-change.btn.btn-default(type='button') Bitrate Change
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Markers
+          button#marker-popup.btn.btn-default(type='button') Marker Popup
+          button#marker-popupclick.btn.btn-default(type='button') Marker Popup Click
+          button#marker-multicam.btn.btn-default(type='button') Marker Multicam Click
+          button#marker-share.btn.btn-default(type='button') Marker Share Click 
+          button#marker-click.btn.btn-default(type='button') Marker Click  
+          button#marker-hover.btn.btn-default(type='button') Marker Hover   
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Milestones
+          button#milestone.btn.btn-default(type='button') Milestone
+          button#milestone-view.btn.btn-default(type='button') Milestone View
+          button#milestone-click.btn.btn-default(type='button') Milestone Click
+          button#milestone-hover.btn.btn-default(type='button') Milestone Hover
+          button#milestone-pbp.btn.btn-default(type='button') Milestone PlayByPLay Click
+          button#chapter.btn.btn-default(type='button') Chapter Click
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Volume
+          input#volume(data-slider-id='volume-id', type='text', data-slider-min='0', data-slider-max='20', data-slider-step='1', data-slider-value='20')
+          button#mute.btn.btn-default(type='button') Mute
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Main share
+          button#share-main.btn.btn-default(type='button') Main Share    
+          button#share-click.btn.btn-default(type='button') Share Click
     
     
     
@@ -48,7 +100,7 @@ block content
           button#overlay-expand.btn.btn-default(type='button') Overlay Expand
           button#overlay-collpse.btn.btn-default(type='button') Overlay Collapse
           h5 Overlay Scroll
-          input#overlay-scroll(type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3')
+          input#overlay-scroll(data-slider-id='overlay-scroll-id', type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3')
         br
         br
         .btn-group(role='group', aria-label='...')
@@ -62,7 +114,7 @@ block content
           br
           br
           h5 Overlay Volume Slider
-          input#overlay-volume-slider(type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
+          input#overlay-volume-slider(data-slider-id='overlay-volume-id', type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
     
         br
         br
@@ -75,7 +127,7 @@ block content
       .panel-body
         .btn-group(role='group', aria-label='...')
           h5 Commentary Scroll
-          input#commentary-scroll(type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
+          input#commentary-scroll(data-slider-id='commentary-scroll-id', type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
     
     
     .panel.panel-default#multicam.visibility

@@ -89,6 +89,16 @@ $( document ).ready(function() {
 
   /********* BAR *********/
 
+<<<<<<< HEAD
+  $( "#seek-id" ).click(function() {
+    console.log("seek-click");
+
+  });
+
+  $( "#seek-id" ).hover(function() {
+    console.log("seek-hover");
+
+=======
   $( "#seek" ).click(function() {
     console.log("seek");
     dataLayer.push({
@@ -113,10 +123,11 @@ $( document ).ready(function() {
       'virtualPageURL':'/player/1',
       'virtualPageTitle' : 'player id'
     });
+>>>>>>> origin/master
   });
 
-  $( "#seek" ).hover(function() {
-    console.log("seek");
+  $( "#seek-id" ).on('slideStop', function() {
+    console.log("seek-slide");
 
   });
 
@@ -384,7 +395,7 @@ $( document ).ready(function() {
 
   // Volume
 
-  $( "#volume" ).slider(function() {
+  $( "#volume" ).on('slideStop',function() {
     console.log("volume");
     dataLayer.push({
       'event':'interaction',
@@ -517,7 +528,7 @@ $( document ).ready(function() {
 
   });
 
-  $( "#overlay-scroll" ).slider(function() {
+  $( "#overlay-scroll-id" ).on('slideStop', function() {
     console.log("overlay-scroll");
 
     dataLayer.push({
@@ -623,7 +634,7 @@ $( document ).ready(function() {
     });
   });
 
-  $( "#overlay-volume-slider" ).slider(function() {
+  $( "#overlay-volume-slider" ).on('slideStop', function() {
     console.log("overlay-volume-slider");
     dataLayer.push({
       'event':'interaction',
@@ -655,7 +666,7 @@ $( document ).ready(function() {
 
   // Commentary
 
-  $( "#commentary-scroll" ).slider(function() {
+  $( "#commentary-scroll" ).on('slideStop', function() {
     console.log("commentary-scroll");
 
   });
