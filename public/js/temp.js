@@ -277,15 +277,7 @@ dataLayer.push({
   'virtualPageURL':'/multicam/1',
   'virtualPageTitle' : 'multicam id'
 });
-dataLayer.push({
-  'event':'interaction',
-  'label':'Related',
-  'category' : 'Multicam',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multicam/1',
-  'virtualPageTitle' : 'multicam id'
-});
+
 //PIP
 dataLayer.push({
   'event':'interaction',
@@ -297,70 +289,18 @@ dataLayer.push({
   'virtualPageTitle' : 'pip id'
 });
 //QUADCAM
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
+
 dataLayer.push({
   'event':'interaction',
   'label':'Close',
   'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
+  'action' : 'Auto',
+  'nonInteraction' : true,
   'virtualPageURL':'/quadcam/1',
   'virtualPageTitle' : 'quadcam id'
 });
-dataLayer.push({
-  'event':'interaction',
-  'label':'Quad',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Pip',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
-//MULTISTREAM
-dataLayer.push({
-  'event':'interaction',
-  'label':'Stream',
-  'category' : 'Multistream',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multistream/1',
-  'virtualPageTitle' : 'multistream id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Pip',
-  'category' : 'Multistream',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multistream/1',
-  'virtualPageTitle' : 'multistream id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Quad',
-  'category' : 'Multistream',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/multistream/1',
-  'virtualPageTitle' : 'multistream id'
-});
+
+
 //CHAPTER
 dataLayer.push({
   'event':'interaction',
@@ -375,8 +315,8 @@ dataLayer.push({
   'event':'interaction',
   'label':'Close',
   'category' : 'Chapter',
-  'action' : 'Click',
-  'nonInteraction' : false,
+  'action' : 'Auto',
+  'nonInteraction' : true,
   'virtualPageURL':'/chapter/1',
   'virtualPageTitle' : 'chapter id'
 });

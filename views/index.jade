@@ -3,22 +3,18 @@ extends layout
 block content
   .container
     ul.nav.nav-pills
-      li.active(role='presentation')
+      li#tab-commentary(role='presentation')
         a(href='#') Commentary
-      li(role='presentation')
+      li#tab-multistream(role='presentation')
         a(href='#') Multistream
-      li(role='presentation')
+      li#tab-overlay(role='presentation')
         a(href='#') Overlay
-      li(role='presentation')
+      li#tab-share(role='presentation')
         a(href='#') Share
-    #alert.alert.alert-info.alert-dismissible.fade.in(role='alert')
-      button.close(type='button', data-dismiss='alert', aria-label='Close')
-        span(aria-hidden='true') &times;
-      strong Alert
-      |  Click x for close
+
  
           
-    .panel.panel-default
+    .panel.panel-default#alert.visibility
       .panel-heading
         h3.panel-title Alert
       .panel-body
@@ -32,7 +28,137 @@ block content
           button#alert-off.btn.btn-default(type='button') Off 
     
     
-    .panel.panel-default
+    
+    
+    
+    .panel#commentary.panel-default.visibility
+      .panel-heading
+        h3.panel-title Overlay    
+
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#tab-click.btn.btn-default(type='button') Tab Click
+          button#overlay-tabclick.btn.btn-default(type='button') Overlay Tab Click
+          button#overlay-back.btn.btn-default(type='button') Overlay Back
+          button#overlay-html.btn.btn-default(type='button') Overlay HTML Click
+          
+        br
+        br
+        .btn-group(role='group', aria-label='...')
+          button#overlay-expand.btn.btn-default(type='button') Overlay Expand
+          button#overlay-collpse.btn.btn-default(type='button') Overlay Collapse
+          h5 Overlay Scroll
+          input#overlay-scroll(type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3')
+        br
+        br
+        .btn-group(role='group', aria-label='...')
+          button#overlay-replay.btn.btn-default(type='button') Overlay Replay
+          button#overlay-play.btn.btn-default(type='button') Overlay Play
+          button#overlay-pause.btn.btn-default(type='button') Overlay Pause
+          button#overlay-seek.btn.btn-default(type='button') Overlay Seek
+          button#overlay-prev.btn.btn-default(type='button') Overlay Prev
+          button#overlay-next.btn.btn-default(type='button') Overlay Next
+          button#overlay-volume-click.btn.btn-default(type='button') Overlay Volume Click
+          br
+          br
+          h5 Overlay Volume Slider
+          input#overlay-volume-slider(type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
+    
+        br
+        br
+        .btn-group(role='group', aria-label='...')
+          button#playby-click.btn.btn-default(type='button') PlayByPLay Click
+          button#playby-multicam.btn.btn-default(type='button') PlayByPLay Multicam
+          button#playby-share.btn.btn-default(type='button') PlayByPLay Share   
+          
+
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          h5 Commentary Scroll
+          input#commentary-scroll(type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
+    
+    
+    .panel.panel-default#multicam.visibility
+      .panel-heading
+        h3.panel-title Multicam
+
+      .panel-body
+        
+        .btn-group(role='group', aria-label='...')
+          button#multicam-open.btn.btn-default(type='button') Multicam Open
+          button#multicam-close.btn.btn-default(type='button') Multicam Close
+          button#multicam-overlay-click.btn.btn-default(type='button') Multicam Overlay Click
+          button#multicam-overlay-open.btn.btn-default(type='button') Multicam Overlay Open
+          button#multicam-overlay-close.btn.btn-default(type='button') Multicam Overlay Close
+        br
+        br
+        .btn-group(role='group', aria-label='...')
+          button#multicam-camera-click.btn.btn-default(type='button') Multicam Camera Click
+          button#multicam-overlay-cam-click.btn.btn-default(type='button') Multicam Overlay Camera Click
+          button#multicam-related.btn.btn-default(type='button') Multicam Related
+ 
+          
+    .panel.panel-default#multistream.visibility
+      .panel-heading
+        h3.panel-title Multistream
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#multistream-streamclick.btn.btn-default(type='button') Multistream Stream CLick
+          button#multistream-pip.btn.btn-default(type='button') Multistream To PiP
+          button#multistream-quad.btn.btn-default(type='button') Multistream to QuadCam
+          
+    .panel.panel-default#quad.visibility
+      .panel-heading
+        h3.panel-title QuadCam
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#quad-click.btn.btn-default(type='button') QuadCam Click
+          button#quad-quad.btn.btn-default(type='button') QuadCam to Quad
+          button#quad-pip.btn.btn-default(type='button') QuadCam to PiP
+          button#quad-main.btn.btn-default(type='button') QuadCam to Main
+          button#quad-remove.btn.btn-default(type='button') QuadCam Remove
+          button#quad-swap.btn.btn-default(type='button') QuadCam Swap         
+          
+    .panel.panel-default#pip.visibility
+      .panel-heading
+        h3.panel-title PiP
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#pip-close.btn.btn-default(type='button') PiP Close
+          button#pip-quad.btn.btn-default(type='button') PiP to QuadCam
+          button#pip-main.btn.btn-default(type='button') PiP to Main
+          button#pip-swap.btn.btn-default(type='button') PiP Swap
+          button#pip-resize.btn.btn-default(type='button') PiP Resize
+          button#pip-dbclick.btn.btn-default(type='button') PiP DBLclick
+          
+    .panel.panel-default#wizard.visibility
+      .panel-heading
+        h3.panel-title Wizard
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#wizard-close.btn.btn-default(type='button') Wizard Close
+          button#wizard-back.btn.btn-default(type='button') Wizard Back
+          button#wizard-next.btn.btn-default(type='button') Wizard Next
+          button#wizard-out.btn.btn-default(type='button') Wizard Click Out 
+                
+    .panel.panel-default#adv.visibility
+      .panel-heading
+        h3.panel-title ADV View
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#adv-click.btn.btn-default(type='button') ADV Click 
+          button#adv-play.btn.btn-default(type='button') ADV Play
+          button#adv-pause.btn.btn-default(type='button') ADV Pause 
+          button#adv-mute.btn.btn-default(type='button') ADV Mute 
+          
+    .panel.panel-default#again.visibility
+      .panel-heading
+        h3.panel-title End
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#again.btn.btn-default(type='button') Watch Again
+          button#suggested.btn.btn-default(type='button') Suggested Video
+    .panel.panel-default#bar
       .panel-heading
         h3.panel-title Bar   
       .panel-body
@@ -84,132 +210,3 @@ block content
           h5 Main share
           button#share-main.btn.btn-default(type='button') Main Share    
           button#share-click.btn.btn-default(type='button') Share Click
-    
-    
-    .panel#commentary.panel-default
-      .panel-heading
-        h3.panel-title Overlay    
-
-      .panel-body
-        .btn-group(role='group', aria-label='...')
-          button#tab-click.btn.btn-default(type='button') Tab Click
-          button#overlay-tabclick.btn.btn-default(type='button') Overlay Tab Click
-          button#overlay-back.btn.btn-default(type='button') Overlay Back
-          button#overlay-html.btn.btn-default(type='button') Overlay HTML Click
-          
-        br
-        br
-        .btn-group(role='group', aria-label='...')
-          button#overlay-expand.btn.btn-default(type='button') Overlay Expand
-          button#overlay-collpse.btn.btn-default(type='button') Overlay Collapse
-          h5 Overlay Scroll
-          input#overlay-scroll(type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3')
-        br
-        br
-        .btn-group(role='group', aria-label='...')
-          button#overlay-replay.btn.btn-default(type='button') Overlay Replay
-          button#overlay-play.btn.btn-default(type='button') Overlay Play
-          button#overlay-pause.btn.btn-default(type='button') Overlay Pause
-          button#overlay-seek.btn.btn-default(type='button') Overlay Seek
-          button#overlay-prev.btn.btn-default(type='button') Overlay Prev
-          button#overlay-next.btn.btn-default(type='button') Overlay Next
-          button#overlay-volume-click.btn.btn-default(type='button') Overlay Volume Click
-          br
-          br
-          h5 Overlay Volume Slider
-          input#overlay-volume-slider(type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
-    
-        br
-        br
-        .btn-group(role='group', aria-label='...')
-          button#playby-click.btn.btn-default(type='button') PlayByPLay Click
-          button#playby-multicam.btn.btn-default(type='button') PlayByPLay Multicam
-          button#playby-share.btn.btn-default(type='button') PlayByPLay Share   
-          
-
-      .panel-body
-        .btn-group(role='group', aria-label='...')
-          h5 Commentary Scroll
-          input#commentary-scroll(type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
-    
-    
-    .panel.panel-default
-      .panel-heading
-        h3.panel-title Multicam
-
-      .panel-body
-        
-        .btn-group(role='group', aria-label='...')
-          button#multicam-open.btn.btn-default(type='button') Multicam Open
-          button#multicam-close.btn.btn-default(type='button') Multicam Close
-          button#multicam-overlay-click.btn.btn-default(type='button') Multicam Overlay Click
-          button#multicam-overlay-open.btn.btn-default(type='button') Multicam Overlay Open
-          button#multicam-overlay-close.btn.btn-default(type='button') Multicam Overlay Close
-        br
-        br
-        .btn-group(role='group', aria-label='...')
-          button#multicam-camera-click.btn.btn-default(type='button') Multicam Camera Click
-          button#multicam-overlay-cam-click.btn.btn-default(type='button') Multicam Overlay Camera Click
-          button#multicam-related.btn.btn-default(type='button') Multicam Related
- 
-          
-    .panel.panel-default
-      .panel-heading
-        h3.panel-title Multistream
-      .panel-body
-        .btn-group(role='group', aria-label='...')
-          button#multistream-streamclick.btn.btn-default(type='button') Multistream Stream CLick
-          button#multistream-pip.btn.btn-default(type='button') Multistream To PiP
-          button#multistream-quad.btn.btn-default(type='button') Multistream to QuadCam
-          
-    .panel.panel-default
-      .panel-heading
-        h3.panel-title QuadCam
-      .panel-body
-        .btn-group(role='group', aria-label='...')
-          button#quad-click.btn.btn-default(type='button') QuadCam Click
-          button#quad-quad.btn.btn-default(type='button') QuadCam to Quad
-          button#quad-pip.btn.btn-default(type='button') QuadCam to PiP
-          button#quad-main.btn.btn-default(type='button') QuadCam to Main
-          button#quad-remove.btn.btn-default(type='button') QuadCam Remove
-          button#quad-swap.btn.btn-default(type='button') QuadCam Swap         
-          
-    .panel.panel-default
-      .panel-heading
-        h3.panel-title PiP
-      .panel-body
-        .btn-group(role='group', aria-label='...')
-          button#pip-close.btn.btn-default(type='button') PiP Close
-          button#pip-quad.btn.btn-default(type='button') PiP to QuadCam
-          button#pip-main.btn.btn-default(type='button') PiP to Main
-          button#pip-swap.btn.btn-default(type='button') PiP Swap
-          button#pip-resize.btn.btn-default(type='button') PiP Resize
-          button#pip-dbclick.btn.btn-default(type='button') PiP DBLclick
-          
-    .panel.panel-default
-      .panel-heading
-        h3.panel-title Wizard
-      .panel-body
-        .btn-group(role='group', aria-label='...')
-          button#wizard-close.btn.btn-default(type='button') Wizard Close
-          button#wizard-back.btn.btn-default(type='button') Wizard Back
-          button#wizard-next.btn.btn-default(type='button') Wizard Next
-          button#wizard-out.btn.btn-default(type='button') Wizard Click Out 
-                
-    .panel.panel-default
-      .panel-heading
-        h3.panel-title ADV View
-      .panel-body
-        .btn-group(role='group', aria-label='...')
-          button#adv-click.btn.btn-default(type='button') ADV Click 
-          button#adv-play.btn.btn-default(type='button') ADV Play
-          button#adv-pause.btn.btn-default(type='button') ADV Pause 
-          button#adv-mute.btn.btn-default(type='button') ADV Mute 
-          
-    .panel.panel-default
-      .panel-heading
-        h3.panel-title End
-      .panel-body
-        .btn-group(role='group', aria-label='...')
-          button#again.btn.btn-default(type='button') Watch Again
-          button#suggested.btn.btn-default(type='button') Suggested Video

@@ -18,20 +18,23 @@ $( document ).ready(function() {
     'virtualPageURL':'/video',
     'virtualPageTitle' : 'Milan vs Argentina'
   });
-  $("#alert").fadeIn(10000, function() {
-      console.log("ALERT");
-      // analytics.page({
-      //   title: 'Alert',
-      //   path: '/alert',
-      // });
-      dataLayer.push({
-        'event':'VirtualPageview',
-        'virtualPageURL':'/alert',
-        'virtualPageTitle' : 'alert1'
-      });
+
+  $("li#tab-alert").click(function(){
+    console.log("Tab - Alert click");
+    $("li#tab-alert").toggleClass("active");
+    $(".panel#alert").toggleClass("visible");
+    dataLayer.push({
+      'event':'VirtualPageview',
+      'virtualPageURL':'/alert',
+      'virtualPageTitle' : 'alert1'
     });
+  });
 
-
+  $("li#tab-commentary").click(function(){
+    console.log("Tab - Commentary click");
+    $("li#tab-commentary").toggleClass("active");
+    $(".panel#commentary").toggleClass("visible");
+  });
 
 
   /* ALERT */
