@@ -28,6 +28,8 @@ block content
           button#alert-off.btn.btn-default(type='button') Off 
     
     
+<<<<<<< HEAD
+=======
     .panel.panel-default
       .panel-heading
         h3.panel-title Bar   
@@ -80,6 +82,7 @@ block content
           h5 Main share
           button#share-main.btn.btn-default(type='button') Main Share    
           button#share-click.btn.btn-default(type='button') Share Click
+>>>>>>> origin/master
     
     
     

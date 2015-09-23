@@ -5,8 +5,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 dataLayer.push({
   'event':'interaction',
@@ -14,8 +14,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 
 dataLayer.push({
@@ -24,8 +24,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 
 dataLayer.push({
@@ -34,8 +34,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 
 dataLayer.push({
@@ -44,8 +44,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 
 dataLayer.push({
@@ -54,8 +54,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 
 
@@ -391,8 +391,8 @@ dataLayer.push({
   'category' : 'Overlay',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+  'virtualPageTitle' : 'Overlay - html - (Name or ID)'
 });
 dataLayer.push({
   'event':'interaction',
@@ -400,8 +400,8 @@ dataLayer.push({
   'category' : 'Overlay',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+  'virtualPageTitle' : 'Overlay - html - (Name or ID)'
 });
 
 
@@ -464,6 +464,7 @@ dataLayer.push({
   'virtualPageTitle' : 'multicam id'
 });
 
+<<<<<<< HEAD
 
 
 
@@ -481,6 +482,8 @@ dataLayer.push({
 
 
 
+=======
+>>>>>>> origin/master
 //PIP
 dataLayer.push({
   'event':'interaction',
@@ -498,19 +501,12 @@ dataLayer.push({
 
 
 //QUADCAM
-dataLayer.push({
-  'event':'interaction',
-  'label':'Open',
-  'category' : 'Quad',
-  'action' : 'Click',
-  'nonInteraction' : false,
-  'virtualPageURL':'/quadcam/1',
-  'virtualPageTitle' : 'quadcam id'
-});
+
 dataLayer.push({
   'event':'interaction',
   'label':'Close',
   'category' : 'Quad',
+<<<<<<< HEAD
   'action' : 'Click',
   'nonInteraction' : false,
   'virtualPageURL':'/quadcam/1',
@@ -534,10 +530,15 @@ dataLayer.push({
   'category' : 'Quad',
   'action' : 'Click',
   'nonInteraction' : false,
+=======
+  'action' : 'Auto',
+  'nonInteraction' : true,
+>>>>>>> origin/master
   'virtualPageURL':'/quadcam/1',
   'virtualPageTitle' : 'quadcam id'
 });
 
+<<<<<<< HEAD
 //MULTISTREAM
 dataLayer.push({
   'event':'interaction',
@@ -568,6 +569,8 @@ dataLayer.push({
 });
 
 
+=======
+>>>>>>> origin/master
 
 //CHAPTER
 dataLayer.push({
@@ -583,12 +586,29 @@ dataLayer.push({
   'event':'interaction',
   'label':'Close',
   'category' : 'Chapter',
-  'action' : 'Click',
-  'nonInteraction' : false,
+  'action' : 'Auto',
+  'nonInteraction' : true,
   'virtualPageURL':'/chapter/1',
   'virtualPageTitle' : 'chapter id'
 });
 
+<<<<<<< HEAD
+=======
+
+//VIEWS
+dataLayer.push({
+  'event':'VirtualPageview',
+  'virtualPageURL':'/competition/(slug)/player/(version)',
+  'virtualPageTitle' : 'Player - (version)'
+});
+
+dataLayer.push({
+  'event':'VirtualPageview',
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)',
+  'virtualPageTitle' : 'Video - (kind)'
+});
+
+>>>>>>> origin/master
 dataLayer.push({
   'event':'VirtualPageview',
   'virtualPageURL':'/chapter/1',
@@ -601,8 +621,8 @@ dataLayer.push({
 });
 dataLayer.push({
   'event':'VirtualPageview',
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv ID'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 dataLayer.push({
   'event':'VirtualPageview',
@@ -631,8 +651,8 @@ dataLayer.push({
 });
 dataLayer.push({
   'event':'VirtualPageview',
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay ID'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+  'virtualPageTitle' : 'Overlay - html - (Name or ID)'
 });
 dataLayer.push({
   'event':'VirtualPageview',

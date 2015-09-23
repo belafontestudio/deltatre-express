@@ -1,11 +1,17 @@
-#ex1Slider .slider-selection {
-  background: #bababa;
-}
+
 .slider.slider-horizontal {
   width: 100%;
 }
-#alert {
-  display: none;
+
+.visibility {
+  transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+.visible{
+  opacity: 1;
+    height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
