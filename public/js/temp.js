@@ -444,15 +444,6 @@ dataLayer.push({
   'action' : 'Auto',
   'nonInteraction' : true,
   'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)',
-  'virtualPageTitle' : 'video id'
-});
-dataLayer.push({
-  'event':'interaction',
-  'label':'Main',
-  'category' : 'Video',
-  'action' : 'Auto',
-  'nonInteraction' : true,
-  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)',
   'virtualPageTitle' : 'Video - (kind)'
 });
 dataLayer.push({
@@ -499,8 +490,8 @@ dataLayer.push({
   'category' : 'Maincam',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/layout/(fullscreen)',
-  'virtualPageTitle' : 'Layout - Fullscreen - (action)'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/layout/(maincam)',
+  'virtualPageTitle' : 'Layout - Maincam - (action)'
 });
 dataLayer.push({
   'event':'interaction',
@@ -508,8 +499,8 @@ dataLayer.push({
   'category' : 'Maincam',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/layout/(fullscreen)',
-  'virtualPageTitle' : 'Layout - Fullscreen - (action)'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/layout/(maincam)',
+  'virtualPageTitle' : 'Layout - Maincam - (action)'
 });
 //Share
 dataLayer.push({
@@ -519,7 +510,7 @@ dataLayer.push({
   'action' : 'Auto',
   'nonInteraction' : true,
   'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/share',
-  'virtualPageTitle' : 'Layout - Fullscreen - (action)'
+  'virtualPageTitle' : 'Share'
 });
 //Player
 dataLayer.push({
@@ -529,7 +520,7 @@ dataLayer.push({
   'action' : 'Auto',
   'nonInteraction' : true,
   'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/player',
-  'virtualPageTitle' : 'Layout - Fullscreen - (action)'
+  'virtualPageTitle' : 'Player'
 });
 
 //OVERLAY

@@ -120,6 +120,19 @@
   @"virtualPageTitle": @"Adv - (type)",
 }];
 
+
+//Wizard
+dataLayer.push({
+  @'event':@'interaction',
+  @'label':@'Autostart',
+  @'category' : @'Wizard',
+  @'action' : @'Auto',
+  @'nonInteraction' : @TRUE,
+  @'virtualPageURL':@'/competition/(slug)/player/(version)/video/(kind)/wizard/(type)',
+  @'virtualPageTitle' : @'Wizard - (type)'
+});
+
+
 //Video
 
 dataLayer.push({
