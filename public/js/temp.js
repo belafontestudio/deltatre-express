@@ -5,8 +5,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 dataLayer.push({
   'event':'interaction',
@@ -14,8 +14,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 dataLayer.push({
   'event':'interaction',
@@ -23,8 +23,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 dataLayer.push({
   'event':'interaction',
@@ -32,8 +32,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 dataLayer.push({
   'event':'interaction',
@@ -41,8 +41,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 dataLayer.push({
   'event':'interaction',
@@ -50,8 +50,8 @@ dataLayer.push({
   'category' : 'Adv',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv1'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 //Wizard
 dataLayer.push({
@@ -237,8 +237,8 @@ dataLayer.push({
   'category' : 'Overlay',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+  'virtualPageTitle' : 'Overlay - html - (Name or ID)'
 });
 dataLayer.push({
   'event':'interaction',
@@ -246,8 +246,8 @@ dataLayer.push({
   'category' : 'Overlay',
   'action' : 'Auto',
   'nonInteraction' : true,
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay id'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+  'virtualPageTitle' : 'Overlay - html - (Name or ID)'
 });
 //MULTICAM
 dataLayer.push({
@@ -320,6 +320,21 @@ dataLayer.push({
   'virtualPageURL':'/chapter/1',
   'virtualPageTitle' : 'chapter id'
 });
+
+
+//VIEWS
+dataLayer.push({
+  'event':'VirtualPageview',
+  'virtualPageURL':'/competition/(slug)/player/(version)',
+  'virtualPageTitle' : 'Player - (version)'
+});
+
+dataLayer.push({
+  'event':'VirtualPageview',
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)',
+  'virtualPageTitle' : 'Video - (kind)'
+});
+
 dataLayer.push({
   'event':'VirtualPageview',
   'virtualPageURL':'/chapter/1',
@@ -332,8 +347,8 @@ dataLayer.push({
 });
 dataLayer.push({
   'event':'VirtualPageview',
-  'virtualPageURL':'/adv/1',
-  'virtualPageTitle' : 'adv ID'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+  'virtualPageTitle' : 'Adv - (type)'
 });
 dataLayer.push({
   'event':'VirtualPageview',
@@ -362,8 +377,8 @@ dataLayer.push({
 });
 dataLayer.push({
   'event':'VirtualPageview',
-  'virtualPageURL':'/overlay/1',
-  'virtualPageTitle' : 'overlay ID'
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+  'virtualPageTitle' : 'Overlay - html - (Name or ID)'
 });
 dataLayer.push({
   'event':'VirtualPageview',

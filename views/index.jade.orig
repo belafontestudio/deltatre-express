@@ -1,0 +1,267 @@
+extends layout
+
+block content
+  .container
+    ul.nav.nav-pills
+      li#tab-commentary(role='presentation')
+        a(href='#') Commentary
+      li#tab-multistream(role='presentation')
+        a(href='#') Multistream
+      li#tab-overlay(role='presentation')
+        a(href='#') Overlay
+      li#tab-share(role='presentation')
+        a(href='#') Share
+
+ 
+          
+    .panel.panel-default#alert.visibility
+      .panel-heading
+        h3.panel-title Alert
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#alert-click.btn.btn-default(type='button') Alert Click
+          button#alert-close.btn.btn-default(type='button') Alert Close
+          br
+          br
+          h5 Switch
+          button#alert-on.btn.btn-default(type='button') On
+          button#alert-off.btn.btn-default(type='button') Off 
+    
+    
+<<<<<<< HEAD
+=======
+    .panel.panel-default
+      .panel-heading
+        h3.panel-title Bar   
+      .panel-body
+        input#seek(data-slider-id='seek-id', type='text', data-slider-min='0', data-slider-max='20', data-slider-step='1', data-slider-value='14')
+        
+        .btn-toolbar(role='toolbar', aria-label='...')
+          .btn-group(role='group', aria-label='...')
+            button#replay.btn.btn-default(type='button') Replay
+            button#play.btn.btn-default(type='button') Play    
+            button#pause.btn.btn-default(type='button') Pause
+            button#live.btn.btn-default(type='button') Live/Vod
+
+          .btn-group(role='group', aria-label='...')
+            
+            button#wizard.btn.btn-default(type='button') Wizard    
+            button#fullscreen.btn.btn-default(type='button') Fullscreen
+      
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Bitrate
+          button#bitrate-auto.btn.btn-default(type='button') Bitrate Auto
+          button#bitrate-manual.btn.btn-default(type='button') Bitrate Manual
+          button#bitrate-change.btn.btn-default(type='button') Bitrate Change
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Markers
+          button#marker-popup.btn.btn-default(type='button') Marker Popup
+          button#marker-popupclick.btn.btn-default(type='button') Marker Popup Click
+          button#marker-multicam.btn.btn-default(type='button') Marker Multicam Click
+          button#marker-share.btn.btn-default(type='button') Marker Share Click 
+          button#marker-click.btn.btn-default(type='button') Marker Click  
+          button#marker-hover.btn.btn-default(type='button') Marker Hover   
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Milestones
+          button#milestone.btn.btn-default(type='button') Milestone
+          button#milestone-view.btn.btn-default(type='button') Milestone View
+          button#milestone-click.btn.btn-default(type='button') Milestone Click
+          button#milestone-hover.btn.btn-default(type='button') Milestone Hover
+          button#milestone-pbp.btn.btn-default(type='button') Milestone PlayByPLay Click
+          button#chapter.btn.btn-default(type='button') Chapter Click
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Volume
+          input#volume(data-slider-id='volume-id', type='text', data-slider-min='0', data-slider-max='20', data-slider-step='1', data-slider-value='20')
+          button#mute.btn.btn-default(type='button') Mute
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Main share
+          button#share-main.btn.btn-default(type='button') Main Share    
+          button#share-click.btn.btn-default(type='button') Share Click
+>>>>>>> origin/master
+    
+    
+    
+    .panel#commentary.panel-default.visibility
+      .panel-heading
+        h3.panel-title Overlay    
+
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#tab-click.btn.btn-default(type='button') Tab Click
+          button#overlay-tabclick.btn.btn-default(type='button') Overlay Tab Click
+          button#overlay-back.btn.btn-default(type='button') Overlay Back
+          button#overlay-html.btn.btn-default(type='button') Overlay HTML Click
+          
+        br
+        br
+        .btn-group(role='group', aria-label='...')
+          button#overlay-expand.btn.btn-default(type='button') Overlay Expand
+          button#overlay-collpse.btn.btn-default(type='button') Overlay Collapse
+          h5 Overlay Scroll
+          input#overlay-scroll(data-slider-id='overlay-scroll-id', type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3')
+        br
+        br
+        .btn-group(role='group', aria-label='...')
+          button#overlay-replay.btn.btn-default(type='button') Overlay Replay
+          button#overlay-play.btn.btn-default(type='button') Overlay Play
+          button#overlay-pause.btn.btn-default(type='button') Overlay Pause
+          button#overlay-seek.btn.btn-default(type='button') Overlay Seek
+          button#overlay-prev.btn.btn-default(type='button') Overlay Prev
+          button#overlay-next.btn.btn-default(type='button') Overlay Next
+          button#overlay-volume-click.btn.btn-default(type='button') Overlay Volume Click
+          br
+          br
+          h5 Overlay Volume Slider
+          input#overlay-volume-slider(data-slider-id='overlay-volume-id', type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
+    
+        br
+        br
+        .btn-group(role='group', aria-label='...')
+          button#playby-click.btn.btn-default(type='button') PlayByPLay Click
+          button#playby-multicam.btn.btn-default(type='button') PlayByPLay Multicam
+          button#playby-share.btn.btn-default(type='button') PlayByPLay Share   
+          
+
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          h5 Commentary Scroll
+          input#commentary-scroll(data-slider-id='commentary-scroll-id', type='text', data-slider-min='-5', data-slider-max='20', data-slider-step='1', data-slider-value='-3', data-slider-orientation='vertical')
+    
+    
+    .panel.panel-default#multicam.visibility
+      .panel-heading
+        h3.panel-title Multicam
+
+      .panel-body
+        
+        .btn-group(role='group', aria-label='...')
+          button#multicam-open.btn.btn-default(type='button') Multicam Open
+          button#multicam-close.btn.btn-default(type='button') Multicam Close
+          button#multicam-overlay-click.btn.btn-default(type='button') Multicam Overlay Click
+          button#multicam-overlay-open.btn.btn-default(type='button') Multicam Overlay Open
+          button#multicam-overlay-close.btn.btn-default(type='button') Multicam Overlay Close
+        br
+        br
+        .btn-group(role='group', aria-label='...')
+          button#multicam-camera-click.btn.btn-default(type='button') Multicam Camera Click
+          button#multicam-overlay-cam-click.btn.btn-default(type='button') Multicam Overlay Camera Click
+          button#multicam-related.btn.btn-default(type='button') Multicam Related
+ 
+          
+    .panel.panel-default#multistream.visibility
+      .panel-heading
+        h3.panel-title Multistream
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#multistream-streamclick.btn.btn-default(type='button') Multistream Stream CLick
+          button#multistream-pip.btn.btn-default(type='button') Multistream To PiP
+          button#multistream-quad.btn.btn-default(type='button') Multistream to QuadCam
+          
+    .panel.panel-default#quad.visibility
+      .panel-heading
+        h3.panel-title QuadCam
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#quad-click.btn.btn-default(type='button') QuadCam Click
+          button#quad-quad.btn.btn-default(type='button') QuadCam to Quad
+          button#quad-pip.btn.btn-default(type='button') QuadCam to PiP
+          button#quad-main.btn.btn-default(type='button') QuadCam to Main
+          button#quad-remove.btn.btn-default(type='button') QuadCam Remove
+          button#quad-swap.btn.btn-default(type='button') QuadCam Swap         
+          
+    .panel.panel-default#pip.visibility
+      .panel-heading
+        h3.panel-title PiP
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#pip-close.btn.btn-default(type='button') PiP Close
+          button#pip-quad.btn.btn-default(type='button') PiP to QuadCam
+          button#pip-main.btn.btn-default(type='button') PiP to Main
+          button#pip-swap.btn.btn-default(type='button') PiP Swap
+          button#pip-resize.btn.btn-default(type='button') PiP Resize
+          button#pip-dbclick.btn.btn-default(type='button') PiP DBLclick
+          
+    .panel.panel-default#wizard.visibility
+      .panel-heading
+        h3.panel-title Wizard
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#wizard-close.btn.btn-default(type='button') Wizard Close
+          button#wizard-back.btn.btn-default(type='button') Wizard Back
+          button#wizard-next.btn.btn-default(type='button') Wizard Next
+          button#wizard-out.btn.btn-default(type='button') Wizard Click Out 
+                
+    .panel.panel-default#adv.visibility
+      .panel-heading
+        h3.panel-title ADV View
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#adv-click.btn.btn-default(type='button') ADV Click 
+          button#adv-play.btn.btn-default(type='button') ADV Play
+          button#adv-pause.btn.btn-default(type='button') ADV Pause 
+          button#adv-mute.btn.btn-default(type='button') ADV Mute 
+          
+    .panel.panel-default#again.visibility
+      .panel-heading
+        h3.panel-title End
+      .panel-body
+        .btn-group(role='group', aria-label='...')
+          button#again.btn.btn-default(type='button') Watch Again
+          button#suggested.btn.btn-default(type='button') Suggested Video
+    .panel.panel-default#bar
+      .panel-heading
+        h3.panel-title Bar   
+      .panel-body
+        input#seek(data-slider-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='20', data-slider-step='1', data-slider-value='14')
+        
+        .btn-toolbar(role='toolbar', aria-label='...')
+          .btn-group(role='group', aria-label='...')
+            button#replay.btn.btn-default(type='button') Replay
+            button#play.btn.btn-default(type='button') Play    
+            button#pause.btn.btn-default(type='button') Pause
+            button#live.btn.btn-default(type='button') Live/Vod
+
+          .btn-group(role='group', aria-label='...')
+            
+            button#wizard.btn.btn-default(type='button') Wizard    
+            button#fullscreen.btn.btn-default(type='button') Fullscreen
+      
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Bitrate
+          button#bitrate-auto.btn.btn-default(type='button') Bitrate Auto
+          button#bitrate-manual.btn.btn-default(type='button') Bitrate Manual
+          button#bitrate-change.btn.btn-default(type='button') Bitrate Change
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Markers
+          button#marker-popup.btn.btn-default(type='button') Marker Popup
+          button#marker-popupclick.btn.btn-default(type='button') Marker Popup Click
+          button#marker-multicam.btn.btn-default(type='button') Marker Multicam Click
+          button#marker-share.btn.btn-default(type='button') Marker Share Click 
+          button#marker-click.btn.btn-default(type='button') Marker Click  
+          button#marker-hover.btn.btn-default(type='button') Marker Hover   
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Milestones
+          button#milestone.btn.btn-default(type='button') Milestone
+          button#milestone-view.btn.btn-default(type='button') Milestone View
+          button#milestone-click.btn.btn-default(type='button') Milestone Click
+          button#milestone-hover.btn.btn-default(type='button') Milestone Hover
+          button#milestone-pbp.btn.btn-default(type='button') Milestone PlayByPLay Click
+          button#chapter.btn.btn-default(type='button') Chapter Click
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Volume
+          input#volume(data-slider-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='20', data-slider-step='1', data-slider-value='20')
+          button#mute.btn.btn-default(type='button') Mute
+      .panel-footer
+        .btn-group(role='group', aria-label='...')
+          h5 Main share
+          button#share-main.btn.btn-default(type='button') Main Share    
+          button#share-click.btn.btn-default(type='button') Share Click

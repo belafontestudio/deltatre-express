@@ -28,6 +28,8 @@ $( document ).ready(function() {
       'virtualPageURL':'/alert',
       'virtualPageTitle' : 'alert1'
     });
+
+
   });
 
   $("li#tab-commentary").click(function(){
@@ -89,16 +91,7 @@ $( document ).ready(function() {
 
   /********* BAR *********/
 
-<<<<<<< HEAD
-  $( "#seek-id" ).click(function() {
-    console.log("seek-click");
 
-  });
-
-  $( "#seek-id" ).hover(function() {
-    console.log("seek-hover");
-
-=======
   $( "#seek" ).click(function() {
     console.log("seek");
     dataLayer.push({
@@ -123,7 +116,7 @@ $( document ).ready(function() {
       'virtualPageURL':'/player/1',
       'virtualPageTitle' : 'player id'
     });
->>>>>>> origin/master
+
   });
 
   $( "#seek-id" ).on('slideStop', function() {
@@ -446,18 +439,6 @@ $( document ).ready(function() {
 
   /******** OVERLAY ******/
 
-  $( "#tab-click" ).click(function() {
-    console.log("tab-click");
-    dataLayer.push({
-      'event':'interaction',
-      'label':'Overlay title',
-      'category' : 'Tab',
-      'action' : 'Click',
-      'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
-    });
-  });
 
   $( "#overlay-tabclick" ).click(function() {
     console.log("overlay-tabclick");
@@ -467,8 +448,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -480,8 +461,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -493,8 +474,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
 
   });
@@ -509,8 +490,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -522,8 +503,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
 
   });
@@ -537,8 +518,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Scroll',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -551,8 +532,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -564,8 +545,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -577,8 +558,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -590,8 +571,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -603,8 +584,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -616,8 +597,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -629,8 +610,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -642,8 +623,8 @@ $( document ).ready(function() {
       'category' : 'Overlay',
       'action' : 'Slide',
       'nonInteraction' : false,
-      'virtualPageURL':'/overlay/1',
-      'virtualPageTitle' : 'overlay id'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
+      'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
   });
 
@@ -1025,8 +1006,8 @@ $( document ).ready(function() {
       'category' : 'Adv',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/adv/1',
-      'virtualPageTitle' : 'adv1'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+      'virtualPageTitle' : 'Adv - (type)'
     });
   });
 
@@ -1038,8 +1019,8 @@ $( document ).ready(function() {
       'category' : 'Adv',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/adv/1',
-      'virtualPageTitle' : 'adv1'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+      'virtualPageTitle' : 'Adv - (type)'
     });
   });
 
@@ -1051,8 +1032,8 @@ $( document ).ready(function() {
       'category' : 'Adv',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/adv/1',
-      'virtualPageTitle' : 'adv1'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+      'virtualPageTitle' : 'Adv - (type)'
     });
   });
 
@@ -1064,8 +1045,8 @@ $( document ).ready(function() {
       'category' : 'Adv',
       'action' : 'Click',
       'nonInteraction' : false,
-      'virtualPageURL':'/adv/1',
-      'virtualPageTitle' : 'adv1'
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/adv/(type)',
+      'virtualPageTitle' : 'Adv - (type)'
     });
   });
 
