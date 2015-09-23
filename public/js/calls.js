@@ -91,6 +91,15 @@ $( document ).ready(function() {
 
   /********* BAR *********/
 
+<<<<<<< HEAD
+  $( "#seek-id" ).click(function() {
+    console.log("seek-click");
+
+  });
+
+  $( "#seek-id" ).hover(function() {
+    console.log("seek-hover");
+=======
 
   $( "#seek" ).click(function() {
     console.log("seek");
@@ -116,6 +125,7 @@ $( document ).ready(function() {
       'virtualPageURL':'/player/1',
       'virtualPageTitle' : 'player id'
     });
+>>>>>>> origin/master
 
   });
 
@@ -139,43 +149,12 @@ $( document ).ready(function() {
 
   $( "#play" ).click(function() {
     console.log("play");
-    dataLayer.push({
-          'event':'interaction',
-          'label':'Play',
-          'category' : 'Bar',
-          'action' : 'Click',
-          'play': 'true',
-          'nonInteraction' : false,
-          'virtualPageURL':'/video/1',
-          'virtualPageTitle' : 'Video id or title'
-        });
+
   });
 
   $( "#pause" ).click(function() {
     console.log("pause");
-    dataLayer.push({
-      'event':'interaction',
-      'label':'Pause',
-      'category' : 'Bar',
-      'action' : 'Click',
-      'play': 'false',
-      'nonInteraction' : false,
-      'virtualPageURL':'/video/1',
-      'virtualPageTitle' : 'Video id or title'
-    });
-  });
 
-  $( "#live" ).click(function() {
-    console.log("live");
-    dataLayer.push({
-      'event':'interaction',
-      'label':'Live',
-      'category' : 'Bar',
-      'action' : 'Click',
-      'nonInteraction' : false,
-      'virtualPageURL':'/player/1',
-      'virtualPageTitle' : 'player id'
-    });
   });
 
   $( "#live" ).click(function() {
@@ -185,15 +164,7 @@ $( document ).ready(function() {
 
   $( "#wizard" ).click(function() {
     console.log("wizard");
-    dataLayer.push({
-      'event':'interaction',
-      'label':'Wizard',
-      'category' : 'Bar',
-      'action' : 'Click',
-      'nonInteraction' : false,
-      'virtualPageURL':'/player/1',
-      'virtualPageTitle' : 'player id'
-    });
+
   });
 
   $( "#fullscreen" ).click(function() {
@@ -311,15 +282,7 @@ $( document ).ready(function() {
 
   $( "#marker-hover" ).hover(function() {
     console.log("marker-hover");
-    dataLayer.push({
-      'event':'interaction',
-      'label':'Open',
-      'category' : 'Marker',
-      'action' : 'Hover',
-      'nonInteraction' : false,
-      'virtualPageURL':'/marker/1',
-      'virtualPageTitle' : 'marker id'
-    });
+
   });
 
   // Milestones
@@ -349,15 +312,7 @@ $( document ).ready(function() {
 
   $( "#milestone-hover" ).hover(function() {
     console.log("milestone-hover");
-    dataLayer.push({
-      'event':'interaction',
-      'label':'Open',
-      'category' : 'Milestone',
-      'action' : 'Hover',
-      'nonInteraction' : false,
-      'virtualPageURL':'/milestone/1',
-      'virtualPageTitle' : 'milestone id'
-    });
+
   });
 
   $( "#milestone-pbp" ).click(function() {
@@ -403,15 +358,7 @@ $( document ).ready(function() {
 
   $( "#mute" ).click(function() {
     console.log("mute");
-    dataLayer.push({
-      'event':'interaction',
-      'label':'Volume',
-      'category' : 'Bar',
-      'action' : 'Click',
-      'nonInteraction' : false,
-      'virtualPageURL':'/player/1',
-      'virtualPageTitle' : 'player id'
-    });
+
   });
 
 
@@ -578,6 +525,9 @@ $( document ).ready(function() {
 
   $( "#overlay-prev" ).click(function() {
     console.log("overlay-prev");
+<<<<<<< HEAD
+
+=======
     dataLayer.push({
       'event':'interaction',
       'label':'Prev',
@@ -587,10 +537,14 @@ $( document ).ready(function() {
       'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
       'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
+>>>>>>> origin/master
   });
 
   $( "#overlay-next" ).click(function() {
     console.log("overlay-next");
+<<<<<<< HEAD
+
+=======
     dataLayer.push({
       'event':'interaction',
       'label':'Next',
@@ -600,6 +554,7 @@ $( document ).ready(function() {
       'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/overlay/(id)/html',
       'virtualPageTitle' : 'Overlay - html - (Name or ID)'
     });
+>>>>>>> origin/master
   });
 
   $( "#overlay-volume-click" ).click(function() {
