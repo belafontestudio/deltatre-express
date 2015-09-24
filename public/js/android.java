@@ -621,7 +621,7 @@ dataLayer.pushEvent(
     'category' , 'Maincam',
     'action' , 'Auto',
     'nonInteraction', true,
-    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/layout/(fullscreen)',
+    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/layout/(maincam)',
     'virtualPageTitle' , 'Layout - Maincam - (action)'
     )
 });
@@ -632,7 +632,7 @@ dataLayer.pushEvent(
     'category' , 'Maincam',
     'action' , 'Auto',
     'nonInteraction', true,
-    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/layout/(fullscreen)',
+    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/layout/(maincam)',
     'virtualPageTitle' , 'Layout - Maincam - (action)'
     )
 });
