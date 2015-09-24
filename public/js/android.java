@@ -1167,7 +1167,7 @@ dataLayer.pushEvent(
 });
 
 //VIEWS
-dataLayer.pushEvent(
+dataLayer.pushEvent(k
   "VirtualPageview",
   DataLayer.mapOf(
     "virtualPageURL", "/competition/(slug)/player/(version)",
