@@ -190,7 +190,7 @@ dataLayer.push({
   'category' : 'Bar',
   'action' : 'Drag',
   'nonInteraction' : false,
-  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
   'virtualPageTitle' : 'Player - Bar - (type)'
 });
 dataLayer.push({
@@ -199,7 +199,7 @@ dataLayer.push({
   'category' : 'Bar',
   'action' : 'Click',
   'nonInteraction' : false,
-  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
   'virtualPageTitle' : 'Player - Bar - (type)'
 });
 dataLayer.push({
@@ -209,7 +209,7 @@ dataLayer.push({
       'action' : 'Click',
       'play': 'true',
       'nonInteraction' : false,
-      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+      'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
       'virtualPageTitle' : 'Player - Bar - (type)'
 });
 
@@ -220,7 +220,7 @@ dataLayer.push({
   'action' : 'Click',
   'play': 'false',
   'nonInteraction' : false,
-  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
   'virtualPageTitle' : 'Player - Bar - (type)'
 });
 
@@ -230,7 +230,7 @@ dataLayer.push({
   'category' : 'Bar',
   'action' : 'Click',
   'nonInteraction' : false,
-  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
   'virtualPageTitle' : 'Player - Bar - (type)'
 });
 
@@ -240,7 +240,7 @@ dataLayer.push({
   'category' : 'Bar',
   'action' : 'Click',
   'nonInteraction' : false,
-  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
   'virtualPageTitle' : 'Player - Bar - (type)'
 });
 
@@ -250,7 +250,7 @@ dataLayer.push({
   'category' : 'Bar',
   'action' : 'Click',
   'nonInteraction' : false,
-  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+  'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
   'virtualPageTitle' : 'Player - Bar - (type)'
 });
 

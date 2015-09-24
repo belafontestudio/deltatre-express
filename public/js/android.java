@@ -248,7 +248,7 @@ dataLayer.pushEvent(
     'category' , 'Bar',
     'action' , 'Click',
     'nonInteraction', false,
-    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
     'virtualPageTitle' , 'Player - Bar - (type)'
     )
 });
@@ -259,7 +259,7 @@ dataLayer.pushEvent(
     'category' , 'Bar',
     'action' , 'Drag',
     'nonInteraction', false,
-    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
     'virtualPageTitle' , 'Player - Bar - (type)'
     )
 });
@@ -271,7 +271,7 @@ dataLayer.pushEvent(
     'category' , 'Bar',
     'action' , 'Click',
     'nonInteraction', false,
-    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
     'virtualPageTitle' , 'Player - Bar - (type)'
     )
 });
@@ -283,7 +283,7 @@ dataLayer.pushEvent(
     'action' , 'Click',
     'play', 'true'
     'nonInteraction', false,
-    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
     'virtualPageTitle' , 'Player - Bar - (type)'
     )
 });
@@ -295,7 +295,7 @@ dataLayer.pushEvent(
     'action' , 'Click',
     'play', 'false'
     'nonInteraction', false,
-    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
     'virtualPageTitle' , 'Player - Bar - (type)'
     )
 });
@@ -306,7 +306,7 @@ dataLayer.pushEvent(
     'category' , 'Bar',
     'action' , 'Click',
     'nonInteraction', false,
-    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
     'virtualPageTitle' , 'Player - Bar - (type)'
     )
 });
@@ -317,7 +317,7 @@ dataLayer.pushEvent(
     'category' , 'Bar',
     'action' , 'Click',
     'nonInteraction', false,
-    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
     'virtualPageTitle' , 'Player - Bar - (type)'
     )
 });
@@ -328,7 +328,7 @@ dataLayer.pushEvent(
     'category' , 'Bar',
     'action' , 'Click',
     'nonInteraction', false,
-    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/player/bar/(type)',
+    'virtualPageURL','/competition/(slug)/player/(version)/video/(kind)/bar/(type)',
     'virtualPageTitle' , 'Player - Bar - (type)'
     )
 });
