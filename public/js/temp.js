@@ -289,7 +289,7 @@ dataLayer.push({
   'event':'interaction',
   'label':'Marker',
   'category' : 'Bar',
-  'action' : 'Click',
+  'action' : 'Hover',
   'nonInteraction' : false,
   'virtualPageURL':'/competition/(slug)/player/(version)/video/(kind)/marker/(type)',
   'virtualPageTitle' : 'Marker - (type)'
